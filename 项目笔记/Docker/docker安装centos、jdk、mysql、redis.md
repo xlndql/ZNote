@@ -155,11 +155,26 @@ bin/sqlplus / as sysdba
 # 创建账号 
 create user qingxi identified by 123456;
 grant connect,resource to qingxi; 
-# 修改密码 alter user 用户名 identified by 新密码; # 删除用户 drop user 用户名;
+
+# 修改密码 
+alter user 用户名 identified by 新密码; 
+
+# 删除用户 
+drop user 用户名;
+```
 
 安装Postgresql
 
-# 拉取镜像 docker pull postgres # 启动镜像 docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=pass123 postgres # 进入容器 docker exec -it 容器id /bin/bash # 连接pg psql -U postgres -h 127.0.0.1 -p 5432
+```
+# 拉取镜像 
+docker pull postgres 
+
+# 启动镜像 
+docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=pass123 postgres 
+
+# 进入容器 docker exec -it 容器id /bin/bash 
+
+# 连接pg psql -U postgres -h 127.0.0.1 -p 5432
 ```
 
 安装redis
