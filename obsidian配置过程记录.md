@@ -10,4 +10,8 @@
 
 # 1.下载obsidian
 
-当然是直接去
+当然是直接去官网下载：[Obsidian官方下载](https://obsidian.md/)
+
+# 2.在git托管平台创建新仓库
+
+略了，
