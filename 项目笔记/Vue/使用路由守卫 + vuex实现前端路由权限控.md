@@ -32,7 +32,28 @@ export const all = [
 			title: '测试1', 
 			role: ['admin'] 
 		} 
-	}, { path: '/test2', name: 'test2', component: Test2, meta: { title: '测试2', role: ['admin', 'group_admin'] } },{ path: '/test3', name: 'test3', component: Test3, meta: { title: '测试3', role: ['admin', 'user'] } } ] let router = new Router({routes: all}) export default router
+	}, 
+	{ 
+		path: '/test2', 
+		name: 'test2', 
+		component: Test2, 
+		meta: { 
+			title: '测试2', 
+			role: ['admin', 'group_admin'] 
+		} 
+	},
+	{ 
+		path: '/test3', 
+		name: 'test3', 
+		component: Test3,
+		meta: { 
+			title: '测试3', 
+			role: ['admin', 'user'] 
+		} 
+	} ] 
+	let router = new Router({routes: all}) 
+
+export default router
 ```
 
 ## 二、vuex
