@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "def062708e796cbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/Linux/Linux安装Nginx.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60fd0bdc229d8956",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/Linux/linux下启动springboot项目.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2bb01aaa6037ed86",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
