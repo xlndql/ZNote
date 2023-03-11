@@ -34,3 +34,4 @@ git push -u origin main
 
 之后搜索obsidian-git就可以下载了，但是我在插件市场下载的obsidian-git无法开启，缺少了一个main.js文件，所以我还是去了github上的[obsidian-git](https://github.com/denolehov/obsidian-git/tags)下载压缩包后解压到plugins目录下才加载成功的（下载最后一个download而不是前面的zip）。
 
+安装完开启obsidian-git插件后填写插件设置下面的提交姓名和邮箱，并自己调整一下自动提交的
