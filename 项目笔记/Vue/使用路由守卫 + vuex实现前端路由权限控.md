@@ -114,14 +114,27 @@ export async function confirmUserPower({commit}, data) {
 	for (let i = 0; i < all.length; i++) { 
 		if (data.to.path === all[i].path && (all[i]['meta'].role.indexOf(data.userRole) > -1)) { 
 		// 若当前用户在权限组中，设置isPowerful为true 
-		data.isPowerful = true 
-		break 
-	} else { data.isPowerful = false } } return commit('confirmUserPower', data) }
+			data.isPowerful = true 
+			break 
+		} else { 
+			data.isPowerful = false 
+		} 
+	} 
+	return commit('confirmUserPower', data) 
+}
 ```
 
 mutations.js
 
-// 提交 mutations是更改Vuex状态的唯一合法方法 export const getUserRole = (state, userRole) => { state.userRole = userRole } export const confirmUserPower = (state, data) => { state.isPowerful = data.isPowerful }
+```js
+// 提交 mutations是更改Vuex状态的唯一合法方法 
+export const getUserRole = (state, userRole) => { 
+	state.userRole = userRole 
+} 
+export const confirmUserPower = (state, data) => { 
+	state.isPowerful = data.isPowerful 
+}
+```
 
 三、路由守卫
 
