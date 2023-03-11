@@ -84,7 +84,7 @@ typedef struct list{
 }
 ```
 
-1.4.3 字典
+### 1.4.3 字典
 
   字典由哈希表组成，而哈希表又由哈希结点组成。
 
@@ -104,22 +104,40 @@ typeof struct dictEntry{
 typedef struct dictht { 
 	//哈希表数组 
 	dictEntry **table; 
-	//哈希表大小 unsigned long size; //哈希表大小掩码，用于计算索引值 unsigned long sizemask; //该哈希表已有节点的数量 unsigned long used; } #通过sizemark和哈希值一起绝对一个键应该被分配到数组的哪一个索引上。 typedef struct dict { // 类型特定函数 dictType *type; // 私有数据 void *privedata; // 哈希表 dictht ht[2]; // rehash 索引 int rehashidx; } #type属性和privdata属性是针对不同类型的键值对，为创建多态字典而设置的。
+	//哈希表大小 
+	unsigned long size; 
+	//哈希表大小掩码，用于计算索引值 
+	unsigned long sizemask; 
+	//该哈希表已有节点的数量 
+	unsigned long used; 
+} 
+#通过sizemark和哈希值一起绝对一个键应该被分配到数组的哪一个索引上。 
+typedef struct dict { 
+	// 类型特定函数 
+	dictType *type; 
+	// 私有数据 
+	void *privedata; 
+	// 哈希表 
+	dictht ht[2]; 
+	// rehash 索引 
+	int rehashidx; 
+} 
+#type属性和privdata属性是针对不同类型的键值对，为创建多态字典而设置的。
 ```
 
-1.4.4 跳跃表
+### 1.4.4 跳跃表
 
   跳跃表是一种有序数据结构，通过在每个结点中维持多个指向其它结点的指针，从而达到快速访问结点的目的。Redis中在有序集合键和集群结点中的内部数据结构都用到了跳跃表。
 
-1.4.5 整数集合
+### 1.4.5 整数集合
 
   Redis用于保存整数值的集合抽象数据结构，它可以保存类型为 int16_t、int32_t 或者int64_t的整数值，并且保证集合中不会出现重复元素。
 
-1.4.6 压缩列表
+### 1.4.6 压缩列表
 
   压缩列表是Redis为了节约内存而开发的，是由一系列特殊编码的连续内存块组成的顺序型数据结构。一个压缩列表可以包含任意个结点，每个结点可以保存一个字节数或者一个整数值。
 
-1.5 底层模型不同
+## 1.5 底层模型不同
 
   Redis使用的底层模型不同，它们之间底层实现方式以及与客户端之间通信的应用协议不一样，Redis直接自己构建了VM机制，因为一般的系统调用系统函数的话，会浪费一定的时间去移动和请求。
 
