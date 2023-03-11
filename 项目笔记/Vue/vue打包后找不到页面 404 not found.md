@@ -1,1 +1,18 @@
-在根目录[](https://so.csdn.net/so/search?q=%E6%A0%B9%E7%9B%AE%E5%BD%95&spm=1001.2101.3001.7020)下新建文件vue.config.js
+在根目录下新建文件vue.config.js
+```js
+const path = require('path') 
+function resolve(dir) { 
+	return path.join(__dirname, dir) 
+} 
+module.exports = { 
+	publicPath: './', 
+	//这个路径根据自己的情况定，默认就填"./",因为我静态资源的路径必须要在static文件夹下，所以才修改的。 
+	devServer: { 
+	//配置服务器的，添加之后使用npm run dev会自动打开页面 
+		open: true 
+	}, 
+	configureWebpack: { 
+		resolve: { 
+			alias: { 
+			'@': resolve('src') } } } }
+```
