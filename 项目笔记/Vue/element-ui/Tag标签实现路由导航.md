@@ -104,7 +104,16 @@ export default new Vuex.Store({
 		// 重新赋值 
 		state.activePath = val.activePath
 		state.tabList = val.tabList 
-		}, // 点击标签选择菜单 changeMenu(state, val) { state.activePath = val }, // 路由导航end }, actions: { } })
+	}, 
+	// 点击标签选择菜单 
+	changeMenu(state, val) { 
+		state.activePath = val 
+	}, 
+	// 路由导航end 
+	}, 
+	actions: {
+	} 
+})
 ```
 
 若F5或者强刷新页面时需要保留当前tab路由数据，在App.vue中插入代码
