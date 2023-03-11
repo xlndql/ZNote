@@ -8,79 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52a2f2ad36a92745",
+            "id": "4f3a112f20213d8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目笔记/Vue/xs、sm、md、lg 和 xl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1b9d59a9186634d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/vue使用markdown编辑器.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd0b3c7260bb79fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/vue中父组件调用子组件的属性和方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "992547e3862557d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/关于vue 的 this.$refs 打印为undefined解决办法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0561817c5c3137b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/vue实现跳转浏览器新的标签页.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c15ff086fee5df0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/vue中滚动页面到一定距离后固定.md",
+                "file": "项目笔记/Vue/Vue下URL地址栏参数改变却不能刷新界面.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/vue中滚动页面到一定距离后固定.md",
+                "file": "项目笔记/Vue/Vue下URL地址栏参数改变却不能刷新界面.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/vue中滚动页面到一定距离后固定.md",
+                "file": "项目笔记/Vue/Vue下URL地址栏参数改变却不能刷新界面.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/vue中滚动页面到一定距离后固定.md"
+                "file": "项目笔记/Vue/Vue下URL地址栏参数改变却不能刷新界面.md"
               }
             }
           }
@@ -208,10 +147,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7c15ff086fee5df0",
+  "active": "4f3a112f20213d8b",
   "lastOpenFiles": [
-    "项目笔记/Vue/vue实现跳转浏览器新的标签页.md",
+    "项目笔记/Vue/css中文字超出div.md",
+    "项目笔记/Vue/Vue下URL地址栏参数改变却不能刷新界面.md",
     "项目笔记/Vue/vue中滚动页面到一定距离后固定.md",
+    "项目笔记/Vue/vue实现跳转浏览器新的标签页.md",
     "项目笔记/Vue/关于vue 的 this.$refs 打印为undefined解决办法.md",
     "项目笔记/Vue/vue中父组件调用子组件的属性和方法.md",
     "项目笔记/Vue/vue使用markdown编辑器.md",
@@ -236,10 +177,8 @@
     "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
-    "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
     "项目笔记/Docker/images",
     "项目笔记/Docker/images/Pasted image 20230311181531.png",
-    "项目笔记/Linux/linux下启动springboot项目.md",
     "项目笔记/Docker",
     "项目笔记/Linux",
     "学习笔记/Linux",

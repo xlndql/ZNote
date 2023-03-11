@@ -45,6 +45,9 @@ beforeRouteLeave (to, from, next) {
 // 比较他们的大小来确定是否添加fixedNavbar样式 
 handleTabFix() { 
 	var scrollTop = window.pageYOffset || 
-	document.documentElement.scrollTop || 
-	document.body.scrollTop var offsetTop = document.querySelector('#testNavBar').offsetTop scrollTop > offsetTop ? this.isfixTab = true : this.isfixTab = false }
+document.documentElement.scrollTop || 
+document.body.scrollTop 
+	var offsetTop = document.querySelector('#testNavBar').offsetTop 
+	scrollTop > offsetTop ? this.isfixTab = true : this.isfixTab = false 
+}
 ```
