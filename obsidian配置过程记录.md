@@ -52,4 +52,4 @@ git push -u origin main
 
 ## 3.最后调整
 
-最好在第一次克隆的时候先把PC端的.obsidian/plugins文件夹下的插件都上传到托管平台后再将.obsidian文件夹放到.giti
+最好在第一次克隆的时候先把PC端的.obsidian/plugins文件夹下的插件都上传到托管平台后再将.obsidian文件夹放到.gitignore文件里，让手机端可以先克隆到这些插件，就不用再重新下载了。因为手机上的obsidian的文件和电脑端是通用的（至少我目前使用起来是这样的）。
