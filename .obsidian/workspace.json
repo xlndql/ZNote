@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "44f5dbb4ccbd9a2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Vue/vue实时刷新页面数据.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/从0滚动到指定的数字.md",
+                "file": "项目笔记/Vue/vue实时刷新页面数据.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/从0滚动到指定的数字.md",
+                "file": "项目笔记/Vue/vue实时刷新页面数据.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/从0滚动到指定的数字.md"
+                "file": "项目笔记/Vue/vue实时刷新页面数据.md"
               }
             }
           }
@@ -232,10 +244,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9fe3426b3a14a1f3",
+  "active": "44f5dbb4ccbd9a2d",
   "lastOpenFiles": [
-    "项目笔记/Vue/使用路由守卫 + vuex实现前端路由权限控.md",
     "项目笔记/Vue/从0滚动到指定的数字.md",
+    "项目笔记/Vue/vue实时刷新页面数据.md",
+    "项目笔记/Vue/使用路由守卫 + vuex实现前端路由权限控.md",
     "项目笔记/Vue/炫酷的动态粒子背景效果(vue专属).md",
     "项目笔记/Vue/动态监视页面分辨率变化.md",
     "项目笔记/Vue/vue项目刷新报错.md",
@@ -269,7 +282,6 @@
     "日常笔记",
     "刷题笔记",
     "obsidian配置过程记录.md",
-    "().md",
-    "README.md"
+    "().md"
   ]
 }
