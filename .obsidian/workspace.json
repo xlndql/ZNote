@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "obsidian配置过程记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "obsidian配置过程记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "obsidian配置过程记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "obsidian配置过程记录.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -148,7 +149,12 @@
   },
   "active": "1f5729cabb3be014",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "README.md"
+    "().md",
+    "obsidian配置过程记录.md",
+    "README.md",
+    "未命名.md",
+    "blue-bridge",
+    "leetcode",
+    "conflict-files-obsidian-git.md"
   ]
 }
