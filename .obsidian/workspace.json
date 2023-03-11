@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "800141408fcd6282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md",
+                "file": "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md",
+                "file": "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md"
+                "file": "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md"
               }
             }
           }
@@ -160,10 +172,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bdfc37463187a19e",
+  "active": "800141408fcd6282",
   "lastOpenFiles": [
-    "项目笔记/Docker/安装docker.md",
     "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md",
+    "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
+    "项目笔记/Vue/element-ui",
+    "项目笔记/Vue",
+    "项目笔记/Docker/安装docker.md",
     "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
     "项目笔记/Docker/images",
     "项目笔记/Docker/images/Pasted image 20230311181531.png",
@@ -182,9 +197,7 @@
     "项目笔记",
     "日常笔记",
     "刷题笔记",
-    "学习笔记",
     "obsidian配置过程记录.md",
-    "学习笔记/c",
     "().md",
     "README.md",
     "未命名.md",
