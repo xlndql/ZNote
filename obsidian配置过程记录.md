@@ -30,4 +30,4 @@ git push -u origin main
 
 # 4.配置obsidian-git插件
 
-这里很重要，
+这里很重要，国内的obsidian可能打不开第三方插件的插件市场，所以需要下载一个插件压缩包
