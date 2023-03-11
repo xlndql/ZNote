@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e1afd140b4cd1b11",
+        "id": "b372dee637af71e9",
         "type": "tabs",
         "children": [
           {
-            "id": "7478db6fc2db3502",
+            "id": "0d9f597bf96ae4b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 210.50840759277344
   },
   "right": {
     "id": "6312c8862f573144",
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,33 +139,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "0d9f597bf96ae4b4",
   "lastOpenFiles": [
-    "项目笔记/Docker/images",
-    "项目笔记/Docker/images/Pasted image 20230311181531.png",
-    "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
-    "项目笔记/Linux/linux下启动springboot项目.md",
-    "项目笔记/Docker",
-    "项目笔记/Linux/Linux安装Nginx.md",
-    "项目笔记/Linux/Linux安装JDK.md",
-    "项目笔记/Linux/没有防火墙的情况下开放端口.md",
-    "项目笔记/未命名.md",
-    "项目笔记/Linux",
-    "其它笔记/电子书资源.md",
-    "学习笔记/Linux",
-    "学习笔记/c++/学习笔记.md",
-    "其它笔记",
-    "学习笔记/c sharp/学习笔记.md",
-    "项目笔记",
-    "日常笔记",
-    "刷题笔记",
-    "学习笔记",
-    "obsidian配置过程记录.md",
-    "学习笔记/c",
-    "学习笔记/c++",
-    "().md",
-    "README.md",
-    "未命名.md",
-    "conflict-files-obsidian-git.md"
+    "学习笔记/C++/学习笔记.md",
+    "学习笔记/软件工程导论/复习提纲.md",
+    "项目笔记/npm/npm install 安装依赖常见错误总结.md",
+    "学习笔记/软件工程导论",
+    "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
+    "项目笔记/npm",
+    "学习笔记/CompurterScience/14.数据结构.md",
+    "学习笔记/CompurterScience/13.算法入门.md",
+    "学习笔记/CompurterScience/12.编程基础 - 语句和函数.md",
+    "学习笔记/CompurterScience/11.编程语言的发展史.md",
+    "学习笔记/CompurterScience/10.早期的编程方式.md",
+    "学习笔记/CompurterScience/9.高级CPU设计.md",
+    "学习笔记/CompurterScience/8.指令和程序.md",
+    "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215816.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215810.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215755.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215752.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215745.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215736.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215729.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215722.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215719.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215710.png",
+    "学习笔记/CompurterScience/6.寄存器和内存.md",
+    "学习笔记/CompurterScience/5.算数逻辑单元.md",
+    "学习笔记/CompurterScience/4.二进制.md",
+    "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
+    "学习笔记/CompurterScience/images",
+    "学习笔记/CompurterScience/2.电子计算机.md",
+    "学习笔记/CompurterScience/1.计算机早期历史.md",
+    "学习笔记/CompurterScience",
+    "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
+    "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
+    "项目笔记/Redis/Linux安装部署Redis.md",
+    "项目笔记/Redis/Redis的安装和配置说明.md",
+    "项目笔记/Redis/images",
+    "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
+    "项目笔记/Redis",
+    "学习笔记/Algorithms",
+    "学习笔记/DataStructure",
+    "项目笔记/Python/Excel/未命名.md",
+    "项目笔记/Vue/vue创建项目.md",
+    "项目笔记/Python/Excel",
+    "项目笔记/Python",
+    "项目笔记/Vue/mavonEditor 添加文件上传功能.md"
   ]
 }
