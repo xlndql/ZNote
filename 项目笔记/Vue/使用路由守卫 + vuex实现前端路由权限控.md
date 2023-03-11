@@ -153,8 +153,14 @@ router.beforeEach(async (to, from, next) => {
 	} 
 	await store.dispatch('confirmUserPower', data) 
 	if (to.matched.length === 0) { 
-	// 没有相应路由无法跳转，返回至当前页面或首页 
-	from.path ? next({path: from.path}) : next('/'); 
+		// 没有相应路由无法跳转，返回至当前页面或首页 
+		from.path ? next({path: from.path}) : next('/'); 
 	} else if (store.state.isPowerful) {
-	// 路由存在且有权限才能跳转至相应路由页面 next(); } else { // 路由存在且无权限不能跳转，返回至当前页面或首页 from.path ? next({path: from.path}) : next('/'); } });
+		// 路由存在且有权限才能跳转至相应路由页面 
+		next(); 
+	} else { 
+		// 路由存在且无权限不能跳转，返回至当前页面或首页 
+		from.path ? next({path: from.path}) : next('/'); 
+	} 
+});
 ```
