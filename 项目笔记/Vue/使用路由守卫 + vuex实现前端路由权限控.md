@@ -1,16 +1,27 @@
 [(95条消息) 使用路由守卫 + vuex实现前端路由权限控制_qq_42373684的博客-CSDN博客](https://blog.csdn.net/qq_42373684/article/details/105959048)
 
-vue + vuex实现路由权限控制
+# vue + vuex实现路由权限控制
 
-[](undefined)[](undefined)一、定义权限路由
+## 一、定义权限路由
 
 在路由中通过meta.role定义能访问该路由的权限组
 
 router/index.js
 
-import Home from '@views/home' import Test1 from '@views/test1' import Test2 from '@views/test2' import Test3 from '@views/test3' // 所有路由 export const all = [ { path: '/', name: 'home', component: Home, meta: { title: '首页', role: ['admin', 'group_admin', 'user'] } }, { path: '/test1', name: 'test1', component: Test1, meta: { title: '测试1', role: ['admin'] } }, { path: '/test2', name: 'test2', component: Test2, meta: { title: '测试2', role: ['admin', 'group_admin'] } },{ path: '/test3', name: 'test3', component: Test3, meta: { title: '测试3', role: ['admin', 'user'] } } ] let router = new Router({routes: all}) export default router
+``` js
+import Home from '@views/home' 
+import Test1 from '@views/test1' 
+import Test2 from '@views/test2' 
+import Test3 from '@views/test3' 
+// 所有路由 
+export const all = [ 
+	{
+		path: '/', 
+		name: 'home', 
+		component: Home, meta: { title: '首页', role: ['admin', 'group_admin', 'user'] } }, { path: '/test1', name: 'test1', component: Test1, meta: { title: '测试1', role: ['admin'] } }, { path: '/test2', name: 'test2', component: Test2, meta: { title: '测试2', role: ['admin', 'group_admin'] } },{ path: '/test3', name: 'test3', component: Test3, meta: { title: '测试3', role: ['admin', 'user'] } } ] let router = new Router({routes: all}) export default router
+```
 
-二、vuex
+## 二、vuex
 
 index.js
 
