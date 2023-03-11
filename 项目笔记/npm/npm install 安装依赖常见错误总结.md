@@ -39,5 +39,6 @@ The package-lock.json file was created with an old version of npm
 解决方法：
 
 ```
-npm i npm@6 -g npm -v
+npm i npm@6 -g 
+npm -v
 ```
