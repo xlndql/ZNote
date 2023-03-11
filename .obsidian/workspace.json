@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5efdb47de0726086",
+        "id": "7d2c3e26abc28523",
         "type": "tabs",
         "children": [
           {
-            "id": "920231cae6dcc6d6",
+            "id": "3b9863f3afb704d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5465a34c790b12e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Redis/Redis的安装和配置说明.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d492bda815ada2c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Redis/Linux安装部署Redis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3957fa4f13d9ddb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -184,10 +139,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f3957fa4f13d9ddb",
+  "active": "108a4fc518989e51",
   "lastOpenFiles": [
-    "项目笔记/Redis/Linux安装部署Redis.md",
+    "学习笔记/CompurterScience",
+    "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
     "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
+    "项目笔记/Redis/Linux安装部署Redis.md",
     "项目笔记/Redis/Redis的安装和配置说明.md",
     "项目笔记/Redis/images/Pasted image 20230311213926.png",
     "项目笔记/Redis/images/Pasted image 20230311213917.png",
@@ -195,7 +152,6 @@
     "项目笔记/Redis/images/Pasted image 20230311213905.png",
     "项目笔记/Redis/images",
     "项目笔记/Redis/images/Pasted image 20230311213851.png",
-    "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
     "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
     "项目笔记/Redis",
     "学习笔记/Algorithms",
@@ -222,7 +178,6 @@
     "项目笔记/Vue/【CSS3】CSS实现の全屏覆盖+居中显示+等比缩放.md",
     "项目笔记/Vue/vue中平滑地回到顶部，回到底部.md",
     "项目笔记/Vue/【Vue-router】解决父级路由不需要 component的情况.md",
-    "项目笔记/Vue/vue实时刷新页面数据.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
     "项目笔记/Docker/images",
