@@ -162,9 +162,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "30a4c9a73a80e19b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/npm/npm install 安装依赖常见错误总结.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -230,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
+                "file": "项目笔记/npm/npm install 安装依赖常见错误总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
+                "file": "项目笔记/npm/npm install 安装依赖常见错误总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/CompurterScience/15.阿兰 · 图灵.md"
+                "file": "项目笔记/npm/npm install 安装依赖常见错误总结.md"
               }
             }
           }
@@ -292,10 +304,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d28666ca2cf080f3",
+  "active": "30a4c9a73a80e19b",
   "lastOpenFiles": [
-    "学习笔记/CompurterScience/14.数据结构.md",
     "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
+    "项目笔记/npm/npm install 安装依赖常见错误总结.md",
+    "项目笔记/npm",
+    "学习笔记/CompurterScience/14.数据结构.md",
     "学习笔记/CompurterScience/13.算法入门.md",
     "学习笔记/CompurterScience/12.编程基础 - 语句和函数.md",
     "学习笔记/CompurterScience/11.编程语言的发展史.md",
@@ -337,8 +351,6 @@
     "项目笔记/Vue/mavonEditor 添加文件上传功能.md",
     "项目笔记/Vue/localStorage设置过期时间.md",
     "项目笔记/Vue/router中主动跳转页面时报错.md",
-    "项目笔记/Vue/获取当前滚动条的位置.md",
-    "项目笔记/Vue/element-ui",
-    "项目笔记/Vue"
+    "项目笔记/Vue/element-ui"
   ]
 }
