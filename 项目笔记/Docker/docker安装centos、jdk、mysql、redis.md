@@ -174,26 +174,42 @@ docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=pass123 postgres
 
 # 进入容器 docker exec -it 容器id /bin/bash 
 
-# 连接pg psql -U postgres -h 127.0.0.1 -p 5432
+# 连接pg 
+psql -U postgres -h 127.0.0.1 -p 5432
 ```
 
 安装redis
 
+```
 docker pull redis
+```
 
 启动
 
-// 创建配置文件 mkdir -p /mydata/redis/conf touch /mydata/redis/conf/redis.conf
+```
+// 创建配置文件 
+mkdir -p /mydata/redis/conf 
+touch /mydata/redis/conf/redis.conf
+```
 
-docker run -p 6379:6379 --name redis \ -v /mydata/redis/data:/data \ -v /mydata/redis/conf/redis.conf:/etc/redis/redis.conf \ -d redis redis-server /etc/redis/redis.conf
+```
+docker run -p 6379:6379 --name redis \ 
+-v /mydata/redis/data:/data \ 
+-v /mydata/redis/conf/redis.conf:/etc/redis/redis.conf \ 
+-d redis redis-server/etc/redis/redis.conf
+```
 
 redis-cli控制台:
 
+```
 docker exec -it redis redis-cli
+```
 
 redis开启持久化，修改配置文件redis.conf，启动aof持久化，输入：
 
+```
 appendonly yes
+```
 
 docker启动mysqsl、redis自动启动：
 
