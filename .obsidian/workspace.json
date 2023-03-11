@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "216d4eb98becf7ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/c sharp/学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian配置过程记录.md",
+                "file": "学习笔记/c sharp/学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian配置过程记录.md",
+                "file": "学习笔记/c sharp/学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian配置过程记录.md"
+                "file": "学习笔记/c sharp/学习笔记.md"
               }
             }
           }
@@ -149,11 +162,14 @@
   },
   "active": "108a4fc518989e51",
   "lastOpenFiles": [
-    "c++",
-    "c sharp",
+    "学习笔记",
+    "obsidian配置过程记录.md",
+    "学习笔记/c sharp/学习笔记.md",
+    "学习笔记/c",
+    "学习笔记/c++",
+    "学习笔记/c sharp",
     "java",
     "().md",
-    "obsidian配置过程记录.md",
     "README.md",
     "未命名.md",
     "blue-bridge",
