@@ -73,14 +73,39 @@ typedef struct list{
 	listNode * head; 
 	//表尾节点 
 	listNode * tail; 
-	//链表长度 unsigned long len; //节点值复制函数 void *(*dup) (void *ptr); //节点值释放函数 void (*free) (void *ptr); //节点值对比函数 int (*match)(void *ptr, void *key); }
+	//链表长度 
+	unsigned long len; 
+	//节点值复制函数 
+	void *(*dup) (void *ptr); 
+	//节点值释放函数 
+	void (*free) (void *ptr); 
+	//节点值对比函数 
+	int (*match)(void *ptr, void *key); 
+}
 ```
 
 1.4.3 字典
 
   字典由哈希表组成，而哈希表又由哈希结点组成。
 
-typeof struct dictEntry{ //键 void *key; //值 union{ void *val; uint64_tu64; int64_ts64; } struct dictEntry *next; } #每一个dictEntry都对应一个键值对 typedef struct dictht { //哈希表数组 dictEntry **table; //哈希表大小 unsigned long size; //哈希表大小掩码，用于计算索引值 unsigned long sizemask; //该哈希表已有节点的数量 unsigned long used; } #通过sizemark和哈希值一起绝对一个键应该被分配到数组的哪一个索引上。 typedef struct dict { // 类型特定函数 dictType *type; // 私有数据 void *privedata; // 哈希表 dictht ht[2]; // rehash 索引 int rehashidx; } #type属性和privdata属性是针对不同类型的键值对，为创建多态字典而设置的。
+```c
+typeof struct dictEntry{ 
+	//键 
+	void *key; 
+	//值 
+	union{ 
+		void *val; 
+		uint64_tu64; 
+		int64_ts64; 
+	} 
+	struct dictEntry *next; 
+} 
+#每一个dictEntry都对应一个键值对 
+typedef struct dictht { 
+	//哈希表数组 
+	dictEntry **table; 
+	//哈希表大小 unsigned long size; //哈希表大小掩码，用于计算索引值 unsigned long sizemask; //该哈希表已有节点的数量 unsigned long used; } #通过sizemark和哈希值一起绝对一个键应该被分配到数组的哪一个索引上。 typedef struct dict { // 类型特定函数 dictType *type; // 私有数据 void *privedata; // 哈希表 dictht ht[2]; // rehash 索引 int rehashidx; } #type属性和privdata属性是针对不同类型的键值对，为创建多态字典而设置的。
+```
 
 1.4.4 跳跃表
 
