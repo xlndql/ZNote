@@ -4,131 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4e587f79fa80fe62",
+        "id": "dac168a0a531dd5e",
         "type": "tabs",
         "children": [
           {
-            "id": "5134cb6f29f1ddc9",
+            "id": "52a2f2ad36a92745",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目笔记/Vue/vue配置nginx反向代理.md",
+                "file": "项目笔记/Vue/xs、sm、md、lg 和 xl.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b4ce99bb1bd3135a",
+            "id": "c1b9d59a9186634d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目笔记/Vue/vue打包后找不到页面 404 not found.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fdd15a01f6b31c9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/vue打包后图片路径报错.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8966982bf854f12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/vue项目刷新报错.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c431f17e5a2bf2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/动态监视页面分辨率变化.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f10133a62616eb75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/炫酷的动态粒子背景效果(vue专属).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aca65001a81aa427",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/使用路由守卫 + vuex实现前端路由权限控.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fe3426b3a14a1f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/从0滚动到指定的数字.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44f5dbb4ccbd9a2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/vue实时刷新页面数据.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5db7448cb61868d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/未命名.md",
+                "file": "项目笔记/Vue/vue使用markdown编辑器.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/未命名.md",
+                "file": "项目笔记/Vue/vue使用markdown编辑器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/未命名.md",
+                "file": "项目笔记/Vue/vue使用markdown编辑器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/未命名.md"
+                "file": "项目笔记/Vue/vue使用markdown编辑器.md"
               }
             }
           }
@@ -256,10 +160,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b5db7448cb61868d",
+  "active": "c1b9d59a9186634d",
   "lastOpenFiles": [
+    "项目笔记/Vue/xs、sm、md、lg 和 xl.md",
+    "项目笔记/Vue/vue使用markdown编辑器.md",
+    "项目笔记/Vue/vue配置nginx反向代理.md",
+    "项目笔记/Vue/【CSS3】CSS实现の全屏覆盖+居中显示+等比缩放.md",
+    "项目笔记/Vue/vue中平滑地回到顶部，回到底部.md",
+    "项目笔记/Vue/【Vue-router】解决父级路由不需要 component的情况.md",
     "项目笔记/Vue/vue实时刷新页面数据.md",
-    "项目笔记/Vue/未命名.md",
     "项目笔记/Vue/从0滚动到指定的数字.md",
     "项目笔记/Vue/使用路由守卫 + vuex实现前端路由权限控.md",
     "项目笔记/Vue/炫酷的动态粒子背景效果(vue专属).md",
@@ -267,7 +176,6 @@
     "项目笔记/Vue/vue项目刷新报错.md",
     "项目笔记/Vue/vue打包后图片路径报错.md",
     "项目笔记/Vue/vue打包后找不到页面 404 not found.md",
-    "项目笔记/Vue/vue配置nginx反向代理.md",
     "项目笔记/Docker/安装docker.md",
     "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
     "项目笔记/Vue/element-ui/面包屑式动态路由实现.md",
@@ -286,14 +194,10 @@
     "项目笔记/Linux/没有防火墙的情况下开放端口.md",
     "项目笔记/未命名.md",
     "项目笔记/Linux",
-    "其它笔记/电子书资源.md",
     "学习笔记/Linux",
-    "学习笔记/c++/学习笔记.md",
     "其它笔记",
-    "学习笔记/c sharp/学习笔记.md",
     "项目笔记",
     "日常笔记",
-    "刷题笔记",
-    "obsidian配置过程记录.md"
+    "刷题笔记"
   ]
 }
