@@ -12,7 +12,7 @@ Vue.use(mavonEditor)
 
 Vue 页面使用
 
-```vue
+```js
 <div> 
 	<mavon-editor ref="md" v-model="value" :ishljs="true" @imgAdd="imgAdd" /> 
 </div> 
@@ -37,5 +37,9 @@ imgAdd(pos,$file) {
 		method: 'post', 
 		data: formData, 
 		headers: {
-			'Content-Type': 'multipart/form-data'}, }).then((res) => { // 第二步，将返回的url替换到文本原位置 ![...](./0) -> ![...](url) $vm.$img2Url(pos,res.data) }) },
+			'Content-Type': 'multipart/form-data'}, }).then((res) => { 
+			// 第二步，将返回的url替换到文本原位置 ![...](./0) -> ![...](url) 
+			$vm.$img2Url(pos,res.data) 
+	}) 
+},
 ```
