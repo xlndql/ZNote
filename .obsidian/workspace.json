@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b4ce99bb1bd3135a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Vue/vue打包后找不到页面 404 not found.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/vue配置nginx反向代理.md",
+                "file": "项目笔记/Vue/vue打包后找不到页面 404 not found.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/vue配置nginx反向代理.md",
+                "file": "项目笔记/Vue/vue打包后找不到页面 404 not found.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/vue配置nginx反向代理.md"
+                "file": "项目笔记/Vue/vue打包后找不到页面 404 not found.md"
               }
             }
           }
@@ -147,9 +160,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5134cb6f29f1ddc9",
+  "active": "b4ce99bb1bd3135a",
   "lastOpenFiles": [
     "项目笔记/Vue/vue配置nginx反向代理.md",
+    "项目笔记/Vue/vue打包后找不到页面 404 not found.md",
     "项目笔记/Docker/安装docker.md",
     "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
     "项目笔记/Vue/element-ui/面包屑式动态路由实现.md",
