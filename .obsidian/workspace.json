@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5465a34c790b12e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Redis/Redis的安装和配置说明.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
+                "file": "项目笔记/Redis/Redis的安装和配置说明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
+                "file": "项目笔记/Redis/Redis的安装和配置说明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md"
+                "file": "项目笔记/Redis/Redis的安装和配置说明.md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "920231cae6dcc6d6",
+  "active": "5465a34c790b12e8",
   "lastOpenFiles": [
-    "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
     "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
+    "项目笔记/Redis/Redis的安装和配置说明.md",
+    "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
     "项目笔记/Redis",
     "学习笔记/Algorithms",
     "学习笔记/DataStructure",
@@ -179,7 +193,6 @@
     "项目笔记/Vue/vue实时刷新页面数据.md",
     "项目笔记/Vue/从0滚动到指定的数字.md",
     "项目笔记/Vue/使用路由守卫 + vuex实现前端路由权限控.md",
-    "项目笔记/Vue/炫酷的动态粒子背景效果(vue专属).md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
     "项目笔记/Docker/images",

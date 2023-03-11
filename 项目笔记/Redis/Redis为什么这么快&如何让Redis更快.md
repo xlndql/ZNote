@@ -234,4 +234,7 @@ noeviction：永不过期，返回错误
 
   开启slow可以帮助我们定位数据库性能问题。
 
-slowlog-log-slower-than 代表慢查询的阈值，单位为：微秒。当执行查询命令消耗时间大于配置的阈值时，会将该条命令记录到慢查询日志。当 slowlog-log-slower-than=0 时，记录所有命令。slowlog-log-slower-than<0 时，不记录任何命令。slowlog-log-slower-than 的默认值为 10000 （10毫秒，1秒 = 1,000毫秒 = 1,000,000微秒）。 slowlog-max-len 代表慢查询日志最大条数。它是一个队列形式的存储结构，先进先出的队列，即当慢查询日志达
+```
+slowlog-log-slower-than 代表慢查询的阈值，单位为：微秒。当执行查询命令消耗时间大于配置的阈值时，会将该条命令记录到慢查询日志。当 slowlog-log-slower-than=0 时，记录所有命令。slowlog-log-slower-than<0 时，不记录任何命令。
+slowlog-log-slower-than 的默认值为 10000 （10毫秒，1秒 = 1,000毫秒 = 1,000,000微秒）。 slowlog-max-len 代表慢查询日志最大条数。它是一个队列形式的存储结构，先进先出的队列，即当慢查询日志达
+```
