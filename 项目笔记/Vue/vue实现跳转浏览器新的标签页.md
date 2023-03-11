@@ -2,5 +2,11 @@
 
 ```js
 let newpage = this.$router.resolve({ 
-	name: 'messageInfo', query:{ objectType:1, infoId:id } }) window.open(newpage.href, '_blank');
+	name: 'messageInfo', 
+	query:{ 
+		objectType:1, 
+		infoId:id 
+	} 
+}) 
+window.open(newpage.href, '_blank');
 ```
