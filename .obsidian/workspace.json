@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a10eaf6df3dd6990",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Vue/获取当前滚动条的位置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/vue打包后本地快速运行anywhere插件.md",
+                "file": "项目笔记/Vue/获取当前滚动条的位置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/vue打包后本地快速运行anywhere插件.md",
+                "file": "项目笔记/Vue/获取当前滚动条的位置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/vue打包后本地快速运行anywhere插件.md"
+                "file": "项目笔记/Vue/获取当前滚动条的位置.md"
               }
             }
           }
@@ -172,10 +184,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "810a9918f0ed16e2",
+  "active": "a10eaf6df3dd6990",
   "lastOpenFiles": [
-    "项目笔记/Vue/vue打包.md",
     "项目笔记/Vue/vue打包后本地快速运行anywhere插件.md",
+    "项目笔记/Vue/获取当前滚动条的位置.md",
+    "项目笔记/Vue/vue打包.md",
     "项目笔记/Vue/Vue下URL地址栏参数改变却不能刷新界面.md",
     "项目笔记/Vue/css中文字超出div.md",
     "项目笔记/Vue/vue中滚动页面到一定距离后固定.md",
@@ -199,7 +212,6 @@
     "项目笔记/Docker/安装docker.md",
     "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
     "项目笔记/Vue/element-ui/面包屑式动态路由实现.md",
-    "项目笔记/Vue/element-ui/Tag标签实现路由导航.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
     "项目笔记/Docker/images",
