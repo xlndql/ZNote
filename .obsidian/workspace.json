@@ -174,11 +174,17 @@
   },
   "active": "b2b134e9e8c230b6",
   "lastOpenFiles": [
+    "Pasted image 20230311215140.png",
+    "Pasted image 20230311215129.png",
+    "Pasted image 20230311215125.png",
+    "Pasted image 20230311215120.png",
+    "Pasted image 20230311215107.png",
+    "Pasted image 20230311215103.png",
+    "Pasted image 20230311215058.png",
+    "Pasted image 20230311215054.png",
     "Pasted image 20230311215038.png",
     "Pasted image 20230311215034.png",
     "Pasted image 20230311215029.png",
-    "Pasted image 20230311215003.png",
-    "Pasted image 20230311214946.png",
     "学习笔记/CompurterScience/2.电子计算机.md",
     "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
     "学习笔记/CompurterScience/1.计算机早期历史.md",
@@ -187,12 +193,7 @@
     "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
     "项目笔记/Redis/Linux安装部署Redis.md",
     "项目笔记/Redis/Redis的安装和配置说明.md",
-    "项目笔记/Redis/images/Pasted image 20230311213926.png",
-    "项目笔记/Redis/images/Pasted image 20230311213917.png",
-    "项目笔记/Redis/images/Pasted image 20230311213911.png",
-    "项目笔记/Redis/images/Pasted image 20230311213905.png",
     "项目笔记/Redis/images",
-    "项目笔记/Redis/images/Pasted image 20230311213851.png",
     "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
     "项目笔记/Redis",
     "学习笔记/Algorithms",
@@ -218,7 +219,6 @@
     "项目笔记/Vue/vue配置nginx反向代理.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
-    "项目笔记/Docker/images",
-    "项目笔记/Docker/images/Pasted image 20230311181531.png"
+    "项目笔记/Docker/images"
   ]
 }
