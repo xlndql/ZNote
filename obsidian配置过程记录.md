@@ -18,3 +18,12 @@
 
 # 3.配置本地仓库
 
+```shell
+touch README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin "替换为上图中本条命令位置提示的远端地址（形如git@gitee.com:user/repo.git）" 
+git push -u origin main
+```
