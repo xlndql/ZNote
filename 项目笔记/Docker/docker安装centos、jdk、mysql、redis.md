@@ -213,4 +213,6 @@ appendonly yes
 
 docker启动mysqsl、redis自动启动：
 
+```
 docker update mysql --restart=always docker update redis --restart=always
+```
