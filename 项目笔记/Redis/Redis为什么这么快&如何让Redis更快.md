@@ -42,7 +42,17 @@ Redis是一款使用C语言编写、可基于内存亦可持久化的日志型�
 
   Redis并没有使用C语言的字符串，而是使用了简单动态字符串(SDS)。相对于C语言的字符串来讲，SDS记录了自身使用和未使用的长度，时间复杂度为O(1),而C语言则要遍历整个空间，时间复杂度为O(N)。
 
-/* Redis简单动态字符串的数据结构 */ struct sdshdr { //字符长度，记录buf数组中已使用的字节数量 unsigned int len; //当前可用空间，记录buf数组中未使用的字节数量 unsigned int free; //具体存放字符的buf char buf[]; };
+```c
+/* Redis简单动态字符串的数据结构 */ 
+struct sdshdr { 
+	//字符长度，记录buf数组中已使用的字节数量
+	unsigned int len; 
+	//当前可用空间，记录buf数组中未使用的字节数量 
+	unsigned int free; 
+	//具体存放字符的buf 
+	char buf[]; 
+};
+```
 
   SDS还会利用自身的长度取检查空间是否足够来满足将来的需求。另外，SDS还会利用自身未使用空间来实现空间的预分配和惰性空间释放的优化。
 
@@ -57,7 +67,14 @@ SDS可以通过自身长度来判断字符串是否结束，这样可以实现�
 
   链表中有记录自身长度的属性len，并且链表使用void*指针来保存节点值，可以通过list 结构的dup、free、match三个属性为节点值设置类型特定函数，所以链表可以用来保存各种不同类型的值。
 
-typedef struct list{ //表头节点 listNode * head; //表尾节点 listNode * tail; //链表长度 unsigned long len; //节点值复制函数 void *(*dup) (void *ptr); //节点值释放函数 void (*free) (void *ptr); //节点值对比函数 int (*match)(void *ptr, void *key); }
+```c
+typedef struct list{ 
+	//表头节点 
+	listNode * head; 
+	//表尾节点 
+	listNode * tail; 
+	//链表长度 unsigned long len; //节点值复制函数 void *(*dup) (void *ptr); //节点值释放函数 void (*free) (void *ptr); //节点值对比函数 int (*match)(void *ptr, void *key); }
+```
 
 1.4.3 字典
 
