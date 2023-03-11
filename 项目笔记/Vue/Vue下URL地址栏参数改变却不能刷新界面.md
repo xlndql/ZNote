@@ -14,7 +14,24 @@ export default {
 		this.getHobby(this.hobby); //调用爱好获取方法 
 	}, 
 	watch: { 
-	'$route' (to, from) { 
-	//监听URL地址栏参数变化 
-	let queryHobby = this.$route.query.hobby; if (queryHobby) { this.getHobby(queryHobby) } } }, methods: { getHobby(hobby) { //接口获取爱好数据 axios({ url: 'http://***.com/hobby/lists', method: 'GET', params: {hobby: hobby} }).then(res => { this.list = res.data.data; //获取接口中的数据，并赋值 }) } } } </script>
+		'$route' (to, from) { 
+			//监听URL地址栏参数变化 
+			let queryHobby = this.$route.query.hobby; 
+			if (queryHobby) { 
+				this.getHobby(queryHobby) 
+			} 
+		} 
+	}, 
+	methods: { 
+		getHobby(hobby) { 
+		//接口获取爱好数据 
+			axios({ 
+				url: 'http://***.com/hobby/lists',
+				method: 'GET', 
+				params: {hobby: hobby} 
+			}).then(res => { this.list = res.data.data; 
+			//获取接口中的数据，并赋值 
+		}) 
+	} 
+	} } </script>
 ```
