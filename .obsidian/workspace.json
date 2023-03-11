@@ -145,7 +145,9 @@
   },
   "active": "108a4fc518989e51",
   "lastOpenFiles": [
-    "学习笔记/未命名",
+    "项目笔记/Redis",
+    "学习笔记/Algorithms",
+    "学习笔记/DataStructure",
     "项目笔记/Python/Excel/未命名.md",
     "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
     "项目笔记/Vue/vue创建项目.md",
@@ -179,8 +181,6 @@
     "项目笔记/Docker/images/Pasted image 20230311181531.png",
     "项目笔记/Docker",
     "项目笔记/Linux",
-    "学习笔记/Linux",
-    "其它笔记",
-    "项目笔记"
+    "学习笔记/Linux"
   ]
 }
