@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "69a4e7c252317418",
+        "id": "e1afd140b4cd1b11",
         "type": "tabs",
         "children": [
           {
-            "id": "9e68dc7048b7a240",
+            "id": "1f5729cabb3be014",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03d0236507d66feb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,6 +158,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9e68dc7048b7a240",
-  "lastOpenFiles": []
+  "active": "1f5729cabb3be014",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "README.md"
+  ]
 }
