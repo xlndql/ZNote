@@ -142,12 +142,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,11 +159,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ea3289f8f967377d",
+  "active": "0cac7e4198934f70",
   "lastOpenFiles": [
-    "未命名.md",
-    "obsidian配置过程记录.md",
     "README.md",
+    "obsidian配置过程记录.md",
+    "未命名.md",
     "blue-bridge",
     "leetcode",
     "conflict-files-obsidian-git.md"
