@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "053608b43c0b4f2d",
+        "id": "4e587f79fa80fe62",
         "type": "tabs",
         "children": [
           {
-            "id": "586780531215e5f4",
+            "id": "5134cb6f29f1ddc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目笔记/Docker/安装docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdfc37463187a19e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "800141408fcd6282",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df4448de8045ea85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/element-ui/Tag标签实现路由导航.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8a57e70cb69d4bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/element-ui/面包屑式动态路由实现.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1551636d67ec179",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
+                "file": "项目笔记/Vue/vue配置nginx反向代理.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
+                "file": "项目笔记/Vue/vue配置nginx反向代理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
+                "file": "项目笔记/Vue/vue配置nginx反向代理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md"
+                "file": "项目笔记/Vue/vue配置nginx反向代理.md"
               }
             }
           }
@@ -208,16 +147,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b1551636d67ec179",
+  "active": "5134cb6f29f1ddc9",
   "lastOpenFiles": [
-    "项目笔记/Vue/element-ui/面包屑式动态路由实现.md",
+    "项目笔记/Vue/vue配置nginx反向代理.md",
+    "项目笔记/Docker/安装docker.md",
     "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
+    "项目笔记/Vue/element-ui/面包屑式动态路由实现.md",
     "项目笔记/Vue/element-ui/Tag标签实现路由导航.md",
     "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
     "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
-    "项目笔记/Docker/安装docker.md",
     "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
     "项目笔记/Docker/images",
     "项目笔记/Docker/images/Pasted image 20230311181531.png",

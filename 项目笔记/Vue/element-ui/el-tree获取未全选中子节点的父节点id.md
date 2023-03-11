@@ -16,4 +16,8 @@ submitAuth() {
 		$HTTP_updateRolePermission(permissionParams).then(res => { 
 			if (res.code == 200 && res.data == true) { 
 				this.$message({ type:"success", message:"更新成功" })
+			}
+		}
+	}
+}
 ```
