@@ -11,11 +11,40 @@
             "id": "3b9863f3afb704d6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/1.计算机早期历史.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76f632cb4f578f03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/2.电子计算机.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2b134e9e8c230b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md"
+              }
             }
           }
         ],
@@ -139,8 +172,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "b2b134e9e8c230b6",
   "lastOpenFiles": [
+    "学习笔记/CompurterScience/2.电子计算机.md",
+    "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
+    "学习笔记/CompurterScience/1.计算机早期历史.md",
     "学习笔记/CompurterScience",
     "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
     "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
@@ -176,12 +212,9 @@
     "项目笔记/Vue/xs、sm、md、lg 和 xl.md",
     "项目笔记/Vue/vue配置nginx反向代理.md",
     "项目笔记/Vue/【CSS3】CSS实现の全屏覆盖+居中显示+等比缩放.md",
-    "项目笔记/Vue/vue中平滑地回到顶部，回到底部.md",
-    "项目笔记/Vue/【Vue-router】解决父级路由不需要 component的情况.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
     "项目笔记/Docker/images",
-    "项目笔记/Docker/images/Pasted image 20230311181531.png",
-    "项目笔记/Docker"
+    "项目笔记/Docker/images/Pasted image 20230311181531.png"
   ]
 }
