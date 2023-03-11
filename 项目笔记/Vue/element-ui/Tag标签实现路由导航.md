@@ -61,7 +61,7 @@ export default new Vuex.Store({
 			if (!item.fullPath != submenu.fullPath) {
 				item.fullPath = submenu.fullPath 
 			} 
-		return true 
+			return true 
 		} 
 	}) 
 	// 如果不包含该对象，则添加 
@@ -75,7 +75,8 @@ export default new Vuex.Store({
 	} 
 	// 重新赋值标签路由和当前选中菜单 
 	state.activePath = activePath 
-	state.tabList = oldTabList }, 
+	state.tabList = oldTabList 
+	}, 
 	// 添加keepalive缓存 
 	addKeepAliveCache(state, val) { 
 		// 如果是首页不缓存 
