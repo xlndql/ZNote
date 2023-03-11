@@ -104,15 +104,31 @@ docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:8.0
 -   -e 运行参数 初始化 root 用户的密码
 -   -d 后台运行 mysq5.7 镜像名字加标签
 
--v 目录挂载，-v /mydata/mysql/log:/var/log/mysql 表示将 docker里面mysql容器的/var/log/mysql目录挂载到宿主linux系统的 /mydata/mysql/log 目录下，方便查看。
+-v 目录挂载，
+-v /mydata/mysql/log:/var/log/mysql 表示将 docker里面mysql容器的/var/log/mysql目录挂载到宿主linux系统的 /mydata/mysql/log 目录下，方便查看。
 
 然后修改权限：
 
-// 进入mysql容器： docker exec -it 934e3c005153 /bin/bash // 登录mysql： mysql -uroot -proot // 修改权限： ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root'; 或者：ALTER USER 'root'@'%' IDENTIFIED BY '123456'; flush privileges;
+```
+// 进入mysql容器： 
+docker exec -it 934e3c005153 /bin/bash // 登录mysql： 
+mysql -uroot -proot 
+// 修改权限： 
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root'; 
+或者：
+ALTER USER 'root'@'%' IDENTIFIED BY '123456'; flush privileges;
+```
 
 mysql配置文件: vim /mydata/mysql/conf/my.cnf
 
-[client] default-character-set=utf8 [mysql] default-character-set=utf8 [mysqld] init_connect='SET collation_ connection = utf8_ unicode_ci' init_connect='SET NAMES utf8' character-set-server=utf8 collation-server=utf8_unicode_ci skip-character-set-client-handshake skip-name-resolve
+``` shell
+[client] 
+default-character-set=utf8 
+[mysql] 
+default-character-set=utf8 
+[mysqld] 
+init_connect='SET collation_ connection = utf8_ unicode_ci' init_connect='SET NAMES utf8' character-set-server=utf8 collation-server=utf8_unicode_ci skip-character-set-client-handshake skip-name-resolve
+```
 
 安装Oracle
 
