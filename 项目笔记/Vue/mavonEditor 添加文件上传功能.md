@@ -7,22 +7,26 @@
 	ref="md" 
 	v-model="newValue" 
 > 
-<!-- 通过插槽将我们的icon插入到工具栏中 下面给出四个插槽名，大家可以自行更换--> 
-<!-- left-toolbar-before --> 
-<!-- left-toolbar-after --> 
-<!-- right-toolbar-before --> 
-<!-- right-toolbar-after --> 
-<template v-slot:left-toolbar-after> 
-	<button 
-		type="button" 
-		title="文件上传" 
-		class="op-icon fa markdown-upload iconfont iconupload" 
-		aria-hidden="true" 
-		@click="uploadFile" 
-	> 
-	<!-- 这里用的是element-ui给出的图标 --> 
-	<i class="el-icon-upload"/> 
-	</button> </template> </mavon-editor> <!-- 在这里放一个隐藏的input，用来选择文件 --> <input ref="uploadInput" style="display: none" type="file" @change="uploadFileChange">
+	<!-- 通过插槽将我们的icon插入到工具栏中 下面给出四个插槽名，大家可以自行更换--> 
+	<!-- left-toolbar-before --> 
+	<!-- left-toolbar-after --> 
+	<!-- right-toolbar-before --> 
+	<!-- right-toolbar-after --> 
+	<template v-slot:left-toolbar-after> 
+		<button 
+			type="button" 
+			title="文件上传" 
+			class="op-icon fa markdown-upload iconfont iconupload" 
+			aria-hidden="true" 
+			@click="uploadFile" 
+		> 		
+			<!-- 这里用的是element-ui给出的图标 --> 
+			<i class="el-icon-upload"/> 
+		</button> 
+	</template> 
+</mavon-editor> 
+<!-- 在这里放一个隐藏的input，用来选择文件 --> 
+<input ref="uploadInput" style="display: none" type="file" @change="uploadFileChange">
 ```
 
 接口代码：
