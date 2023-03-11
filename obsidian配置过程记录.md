@@ -48,4 +48,8 @@ git push -u origin main
 
 我使用的是[MGit](https://f-droid.org/packages/com.manichord.mgit/)这个软件，可以很方便的进行github和gitee的连接。
 
-首先进入设置中选择本地的文件夹位置，以便之后克隆仓库，之后找到设置中的SSH keys处生成新的密钥，然后在github或者gitee中添加这个密钥，之后添加新的克隆仓库，选择github或者gitee上自己的笔记仓库地址，再配置到
+首先进入设置中选择本地的文件夹位置，以便之后克隆仓库。之后找到设置中的SSH keys处生成新的密钥，然后在github或者gitee中添加这个密钥。最后添加新的克隆仓库，选择github或者gitee上自己的笔记仓库地址即可生成本地文件。
+
+## 3.最后调整
+
+最好在第一次克隆的时候先把
