@@ -4,5 +4,16 @@
 submitAuth() { 
 	if (this.activeName == "first") { 
 		let parentArr = this.$refs.pageTree.getHalfCheckedKeys(); 
-		//获取子节点未全选时的父节点id let childArr = this.$refs.pageTree.getCheckedKeys(); //获取所有选中节点的id let permissionParams = { //获取全选中的id permissionids:parentArr.concat(childArr), //将两个数组进行拼接 roleid:this.editRoleId } $HTTP_updateRolePermission(permissionParams).then(res => { if (res.code == 200 && res.data == true) { this.$message({ type:"success", message:"更新成功" })
+		//获取子节点未全选时的父节点id 
+		let childArr = this.$refs.pageTree.getCheckedKeys(); 
+		//获取所有选中节点的id 
+		let permissionParams = { 
+			//获取全选中的id
+			permissionids:parentArr.concat(childArr), 
+			//将两个数组进行拼接 
+			roleid:this.editRoleId 
+		} 
+		$HTTP_updateRolePermission(permissionParams).then(res => { 
+			if (res.code == 200 && res.data == true) { 
+				this.$message({ type:"success", message:"更新成功" })
 ```
