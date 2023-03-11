@@ -44,4 +44,6 @@ git push -u origin main
 
 官方下载地址我没有找到，找到了第三方的下载地址：[obsidian-Android](https://mobile.softpedia.com/apk/obsidian)
 
-##
+## 2.配置git
+
+我使用的是MGit这个软件，可以很方便的进行git
