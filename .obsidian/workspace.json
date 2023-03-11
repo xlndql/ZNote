@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "dac168a0a531dd5e",
+        "id": "5efdb47de0726086",
         "type": "tabs",
         "children": [
           {
-            "id": "93a9bc447d981380",
+            "id": "920231cae6dcc6d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/mavonEditor 添加文件上传功能.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b36b02aff5a82e8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/Vue/vue创建项目.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/vue创建项目.md",
+                "file": "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/vue创建项目.md",
+                "file": "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/vue创建项目.md"
+                "file": "项目笔记/Python/python使用Excel文件（增、删、改、查）.md"
               }
             }
           }
@@ -160,10 +143,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b36b02aff5a82e8e",
+  "active": "108a4fc518989e51",
   "lastOpenFiles": [
-    "项目笔记/Vue/mavonEditor 添加文件上传功能.md",
+    "学习笔记/未命名",
+    "项目笔记/Python/Excel/未命名.md",
+    "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
     "项目笔记/Vue/vue创建项目.md",
+    "项目笔记/Python/Excel",
+    "项目笔记/Python",
+    "项目笔记/Vue/mavonEditor 添加文件上传功能.md",
     "项目笔记/Vue/localStorage设置过期时间.md",
     "项目笔记/Vue/router中主动跳转页面时报错.md",
     "项目笔记/Vue/获取当前滚动条的位置.md",
@@ -185,9 +173,6 @@
     "项目笔记/Vue/从0滚动到指定的数字.md",
     "项目笔记/Vue/使用路由守卫 + vuex实现前端路由权限控.md",
     "项目笔记/Vue/炫酷的动态粒子背景效果(vue专属).md",
-    "项目笔记/Vue/动态监视页面分辨率变化.md",
-    "项目笔记/Vue/vue项目刷新报错.md",
-    "项目笔记/Vue/vue打包后图片路径报错.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
     "项目笔记/Docker/images",
@@ -196,8 +181,6 @@
     "项目笔记/Linux",
     "学习笔记/Linux",
     "其它笔记",
-    "项目笔记",
-    "日常笔记",
-    "刷题笔记"
+    "项目笔记"
   ]
 }
