@@ -46,4 +46,4 @@ git push -u origin main
 
 ## 2.配置git
 
-我使用的是MGit这个软件，可以很方便的进行git
+我使用的是[MGit](https://f-droid.org/packages/com.manichord.mgit/)这个软件，可以很方便的进行github和gitee的连接。
