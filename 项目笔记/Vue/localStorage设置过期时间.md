@@ -62,5 +62,9 @@ class Storage{
 	removeItem(name){ 
 		localStorage.removeItem(name); 
 	} 
-	//移出全部缓存 clear(){ localStorage.clear(); } }
+	//移出全部缓存 
+	clear(){ 
+		localStorage.clear(); 
+	} 
+}
 ```
