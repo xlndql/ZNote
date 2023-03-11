@@ -17,10 +17,29 @@ import VueParticles from 'vue-particles'
 Vue.use(VueParticles)
 ```
 
-三，使用插件
+# 三，使用插件
 
 在组件里写入
-
+```html
+<vue-particles 
+	class="login-bg" 
+	color="#f4f4f4"//粒子的颜色 
+	:particleOpacity="0.7" 
+	:particlesNumber="100" 
+	shapeType="circle" 
+	:particleSize="4" 
+	linesColor="#f4f4f4"//粒子线的颜色 
+	:linesWidth="1" 
+	:lineLinked="true"
+	:lineOpacity="0.4" 
+	:linesDistance="150" 
+	:moveSpeed="3" 
+	:hoverEffect="true"
+	hoverMode="grab" 
+	:clickEffect="true" 
+	clickMode="push" 
+/>
+```
 <vue-particles class="login-bg" color="#f4f4f4"//粒子的颜色 :particleOpacity="0.7" :particlesNumber="100" shapeType="circle" :particleSize="4" linesColor="#f4f4f4"//粒子线的颜色 :linesWidth="1" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150" :moveSpeed="3" :hoverEffect="true" hoverMode="grab" :clickEffect="true" clickMode="push" />
 
 属性说明：
