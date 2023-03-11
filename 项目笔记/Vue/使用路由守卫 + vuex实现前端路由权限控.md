@@ -79,14 +79,28 @@ const store = new Vuex.Store({
 	getters, // 获取数据并渲染 
 	mutations, // 数据的异步操作 
 	actions, // 处理数据的唯一途径，state的改变或赋值只能在这里 
-	}) ; export default store;
+}) ;
+export default store;
 ```
 
 actions.js
 
 注：异步方法只能在actions中使用
 
-import axios from 'axios' import {all} from '@/router' function get(url, params, config) { return new Promise((resolve, reject) => { axios.get(url, { params: params, config: config }) .then(res => { resolve(res) }) .catch(err => { reject(err) }) }) } // 给action注册事件处理函数。当这个函数被触发时候，将状态提交到mutations中处理 export async function getUserRole({commit}, userRole) { // 请求登录接口获取登录用户身份，返回值与接口相关，可根据自己的接口再次调整 await get('/login_info').then(res => { userRole = res.data.user_role }) // 第一个参数为提交的mutations中的方法名 return commit('getUserRole', userRole) } export async function confirmUserPower({commit}, data) { for (let i = 0; i < all.length; i++) { if (data.to.path === all[i].path && (all[i]['meta'].role.indexOf(data.userRole) > -1)) { // 若当前用户在权限组中，设置isPowerful为true data.isPowerful = true break } else { data.isPowerful = false } } return commit('confirmUserPower', data) }
+```js
+import axios from 'axios' 
+import {all} from '@/router' 
+
+function get(url, params, config) { 
+	return new Promise((resolve, reject) => { 
+		axios.get(url, { 
+			params: params, 
+			config: config 
+		})
+		.then(res => { resolve(res) })
+		.catch(err => { reject(err) })
+		 }) } // 给action注册事件处理函数。当这个函数被触发时候，将状态提交到mutations中处理 export async function getUserRole({commit}, userRole) { // 请求登录接口获取登录用户身份，返回值与接口相关，可根据自己的接口再次调整 await get('/login_info').then(res => { userRole = res.data.user_role }) // 第一个参数为提交的mutations中的方法名 return commit('getUserRole', userRole) } export async function confirmUserPower({commit}, data) { for (let i = 0; i < all.length; i++) { if (data.to.path === all[i].path && (all[i]['meta'].role.indexOf(data.userRole) > -1)) { // 若当前用户在权限组中，设置isPowerful为true data.isPowerful = true break } else { data.isPowerful = false } } return commit('confirmUserPower', data) }
+```
 
 mutations.js
 
