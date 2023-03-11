@@ -38,4 +38,7 @@ git push -u origin main
 
 安装完开启obsidian-git插件后填写插件设置下面的提交姓名和邮箱，并自己调整一下自动提交的设置就可以了。
 
-# 
+# Android端
+
+## 1.下载obsidian
+
