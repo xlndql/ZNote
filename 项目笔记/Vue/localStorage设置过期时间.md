@@ -46,5 +46,21 @@ class Storage{
 		if(item.startTime){ 
 			let date = new Date().getTime(); 
 			//何时将值取出减去刚存入的时间，与item.expires比较，如果大于就是过期了，如果小于或等于就还没过期 
-			if(date - item.startTime > item.expires){ //缓存过期，清除缓存，返回false localStorage.removeItem(name); return false; }else{ //缓存未过期，返回值 return item.value; } }else{ //如果没有设置失效时间，直接返回值 return item; } } //移出缓存 removeItem(name){ localStorage.removeItem(name); } //移出全部缓存 clear(){ localStorage.clear(); } }
+			if(date - item.startTime > item.expires){
+				//缓存过期，清除缓存，返回false \
+				localStorage.removeItem(name); return false; 
+			}else{ 
+				//缓存未过期，返回值 
+				return item.value; 
+			} 
+		}else{ 
+			//如果没有设置失效时间，直接返回值 
+			return item; 
+		} 
+	} 
+	//移出缓存 
+	removeItem(name){ 
+		localStorage.removeItem(name); 
+	} 
+	//移出全部缓存 clear(){ localStorage.clear(); } }
 ```
