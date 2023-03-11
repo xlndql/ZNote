@@ -22,40 +22,40 @@
 
 此外，官方也给出了Linux系统下的安装教程（[https://redis.io/download](https://links.jianshu.com/go?to=https%3A%2F%2Fredis.io%2Fdownload)）
 
-2. 在Windows系统上安装Redis
+# 2. 在Windows系统上安装Redis
 
 虽然在Windows系统上Redis的功能稍稍受限，但是由于本人并不太能驾驭Linux系统，所以暂时还以Windows为主。。。
 
 1.  Redis官网并没有提供Windows的下载，不过我们可以使用微软官方的移植版本（[https://github.com/MicrosoftArchive/redis/releases](https://links.jianshu.com/go?to=https%3A%2F%2Fgithub.com%2FMicrosoftArchive%2Fredis%2Freleases)）。
-
+![[Pasted image 20230311213851.png]]
 ![0](https://note.youdao.com/yws/res/2/WEBRESOURCE29f763ee533a6f9c22b47f51b9dd67e2)
 
 这里我们可以选择自己所需的版本zip或msi下载
 
 1.  下载解压后，可得如下目录结构：
-
+![[Pasted image 20230311213905.png]]
 ![0](https://note.youdao.com/yws/res/d/WEBRESOURCE67a0e8b0fa56faa2ea270cddcea05f9d)
 
 1.  这里双击Redis服务器即可启动Redis
 
 ![0](https://note.youdao.com/yws/res/e/WEBRESOURCEddb10421b4821ad0395377bb85c2393e)
-
+![[Pasted image 20230311213911.png]]
 Redis-Server
 
 1.  Server启动之后，我们就可以双击标注为Redis客户端的文件来操作Redis数据库了。
 
 ![0](https://note.youdao.com/yws/res/0/WEBRESOURCEcd777de3a5460d55fc2ad8f7318533b0)
-
+![[Pasted image 20230311213917.png]]
 Redis客户端
 
 到此，基本操作就完成了，就可以通过命令行来访问Redis了。不过我们也可以看一下Redis 的配置文件，以便对Redis的配置有进一步了解。
 
-3. Redis的配置文件
+# 3. Redis的配置文件
 
 我们在安装目录下找到redis.windows-service.conf这个文件，使用文本编辑器打开。
 
 ![0](https://note.youdao.com/yws/res/1/WEBRESOURCEa178696cff33b09f7dae81d74e531ce1)
-
+![[Pasted image 20230311213926.png]]
 Redis配置文件
 
 这里对Redis数据库的配置进行了详细说明，部分配置选项如下：
