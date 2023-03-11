@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2bb01aaa6037ed86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/Linux/没有防火墙的情况下开放端口.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/Linux/linux下启动springboot项目.md",
+                "file": "学习笔记/Linux/没有防火墙的情况下开放端口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/Linux/linux下启动springboot项目.md",
+                "file": "学习笔记/Linux/没有防火墙的情况下开放端口.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/Linux/linux下启动springboot项目.md"
+                "file": "学习笔记/Linux/没有防火墙的情况下开放端口.md"
               }
             }
           }
@@ -160,10 +172,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "60fd0bdc229d8956",
+  "active": "2bb01aaa6037ed86",
   "lastOpenFiles": [
-    "学习笔记/Linux/Linux安装Nginx.md",
     "学习笔记/Linux/linux下启动springboot项目.md",
+    "学习笔记/Linux/没有防火墙的情况下开放端口.md",
+    "学习笔记/Linux/Linux安装Nginx.md",
     "学习笔记/Linux/Linux安装JDK.md",
     "其它笔记/电子书资源.md",
     "学习笔记/Linux",
