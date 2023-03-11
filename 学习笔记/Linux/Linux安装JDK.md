@@ -4,11 +4,15 @@
 
 解压
 
+```shell
 tar -zxvf jdk-verson-linux-x64.tar.gz
+```
 
 移动
 
+```shell
 mv jdk /usr/local/
+```
 
 修改配置文件
 
