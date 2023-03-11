@@ -1,5 +1,7 @@
 {
   "pinned": [
-    "obsidian-git:push2"
+    "obsidian-git:push2",
+    "obsidian-git:commit",
+    "obsidian-git:pull"
   ]
 }
