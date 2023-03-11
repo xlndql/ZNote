@@ -32,4 +32,4 @@ git push -u origin main
 
 这里很重要，国内的obsidian可能打不开第三方插件的插件市场，所以需要下载一个[obsidian-proxy-github](https://github.com/juqkai/obsidian-proxy-github)插件，并解压到笔记本目录下的.obsidian/plugins/目录中（没有plugins就自己创建），然后在obsidian的第三方插件中打开这个插件，就可以进入插件市场了。
 
-之后搜索obsidian-git就可以下载了，但是我在插件市场下载的obsidian-git无法开启
+之后搜索obsidian-git就可以下载了，但是我在插件市场下载的obsidian-git无法开启，缺少了一个main.js文件，所以我还是去了github上的
