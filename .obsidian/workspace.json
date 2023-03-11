@@ -8,67 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1f5729cabb3be014",
+            "id": "def062708e796cbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian配置过程记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "216d4eb98becf7ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/c sharp/学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30d1db3253dc7ec2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/c++/学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1dc639516875e5a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "其它笔记/电子书资源.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "496969ce55243417",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/Linux/Linux安装JDK.md",
+                "file": "学习笔记/Linux/未命名.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/Linux/Linux安装JDK.md",
+                "file": "学习笔记/Linux/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/Linux/Linux安装JDK.md",
+                "file": "学习笔记/Linux/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/Linux/Linux安装JDK.md"
+                "file": "学习笔记/Linux/未命名.md"
               }
             }
           }
@@ -196,10 +147,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "496969ce55243417",
+  "active": "def062708e796cbc",
   "lastOpenFiles": [
-    "其它笔记/电子书资源.md",
     "学习笔记/Linux/Linux安装JDK.md",
+    "学习笔记/Linux/未命名.md",
+    "其它笔记/电子书资源.md",
     "学习笔记/Linux",
     "学习笔记/c++/学习笔记.md",
     "其它笔记",
