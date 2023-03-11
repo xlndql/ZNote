@@ -73,7 +73,20 @@ export default new Vuex.Store({
 			fullPath: submenu.fullPath 
 		})
 	} 
-	// 重新赋值标签路由和当前选中菜单 state.activePath = activePath state.tabList = oldTabList }, // 添加keepalive缓存 addKeepAliveCache(state, val) { // 如果是首页不缓存 if (val === 'index') { return } // console.log(state.catch_components) // 添加时判断，如果该组件已存在，便不添加 if (state.catch_components.indexOf(val) === -1) { // 不存在，缓存页面 state.catch_components.push(val) } }, // 删除keepalive缓存 removeKeepAliveCache(state, val) { let cache = state.catch_components for (let i = 0; i < cache.length; i++) { if (cache[i] === val) { cache.splice(i, 1); } } state.catch_components = cache }, //关闭菜单 closeTab(state, val) { // 重新赋值 state.activePath = val.activePath state.tabList = val.tabList }, // 点击标签选择菜单 changeMenu(state, val) { state.activePath = val }, // 路由导航end }, actions: { } })
+	// 重新赋值标签路由和当前选中菜单 
+	state.activePath = activePath 
+	state.tabList = oldTabList }, 
+	// 添加keepalive缓存 
+	addKeepAliveCache(state, val) { 
+		// 如果是首页不缓存 
+		if (val === 'index') { 
+			return 
+		} 
+		// console.log(state.catch_components) 
+		// 添加时判断，如果该组件已存在，便不添加 
+		if (state.catch_components.indexOf(val) === -1) { 
+		// 不存在，缓存页面
+		 state.catch_components.push(val) } }, // 删除keepalive缓存 removeKeepAliveCache(state, val) { let cache = state.catch_components for (let i = 0; i < cache.length; i++) { if (cache[i] === val) { cache.splice(i, 1); } } state.catch_components = cache }, //关闭菜单 closeTab(state, val) { // 重新赋值 state.activePath = val.activePath state.tabList = val.tabList }, // 点击标签选择菜单 changeMenu(state, val) { state.activePath = val }, // 路由导航end }, actions: { } })
 ```
 
 若F5或者强刷新页面时需要保留当前tab路由数据，在App.vue中插入代码
