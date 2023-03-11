@@ -8,8 +8,10 @@ docker images // 列举镜像
 
 搜索镜像
 
+```
 docker search jdk
-
+```
+![[Pasted image 20230311181531.png]]
 ![0](https://note.youdao.com/yws/res/38/884AF489363F47AAA8B87F707EB14C16)
 
 下载镜像：
