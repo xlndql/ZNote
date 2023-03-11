@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1551636d67ec179",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/element-ui/面包屑式动态路由实现.md",
+                "file": "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/element-ui/面包屑式动态路由实现.md",
+                "file": "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/element-ui/面包屑式动态路由实现.md"
+                "file": "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md"
               }
             }
           }
@@ -196,10 +208,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e8a57e70cb69d4bb",
+  "active": "b1551636d67ec179",
   "lastOpenFiles": [
-    "项目笔记/Vue/element-ui/Tag标签实现路由导航.md",
     "项目笔记/Vue/element-ui/面包屑式动态路由实现.md",
+    "项目笔记/Vue/element-ui/el-tree获取未全选中子节点的父节点id.md",
+    "项目笔记/Vue/element-ui/Tag标签实现路由导航.md",
     "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
     "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md",
     "项目笔记/Vue/element-ui",
