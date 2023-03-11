@@ -52,4 +52,4 @@ git push -u origin main
 
 ## 3.最后调整
 
-最好在第一次克隆的时候先把
+最好在第一次克隆的时候先把PC端的.obsidian/plugins文件夹下的插件都上传到托管平台后再将.obsidian文件夹放到.giti
