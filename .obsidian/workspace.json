@@ -66,9 +66,105 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cefec16893dcfd4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/8.指令和程序.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "07310cda0f85ab71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/9.高级CPU设计.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98f52fae1000f50f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/10.早期的编程方式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36d8622a981590a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/11.编程语言的发展史.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73f08061a03ff144",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/12.编程基础 - 语句和函数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9eaf1b110b2c655",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/13.算法入门.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04e40bbf0639578b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/14.数据结构.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d28666ca2cf080f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -134,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
+                "file": "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
+                "file": "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/CompurterScience/7.中央处理器（CPU）.md"
+                "file": "学习笔记/CompurterScience/15.阿兰 · 图灵.md"
               }
             }
           }
@@ -196,12 +292,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "d28666ca2cf080f3",
   "lastOpenFiles": [
+    "学习笔记/CompurterScience/14.数据结构.md",
+    "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
+    "学习笔记/CompurterScience/13.算法入门.md",
+    "学习笔记/CompurterScience/12.编程基础 - 语句和函数.md",
+    "学习笔记/CompurterScience/11.编程语言的发展史.md",
+    "学习笔记/CompurterScience/10.早期的编程方式.md",
+    "学习笔记/CompurterScience/9.高级CPU设计.md",
+    "学习笔记/CompurterScience/8.指令和程序.md",
+    "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
     "学习笔记/CompurterScience/images/Pasted image 20230311215816.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215810.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215755.png",
-    "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
     "学习笔记/CompurterScience/images/Pasted image 20230311215752.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215745.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215736.png",
@@ -209,7 +313,6 @@
     "学习笔记/CompurterScience/images/Pasted image 20230311215722.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215719.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215710.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215703.png",
     "学习笔记/CompurterScience/6.寄存器和内存.md",
     "学习笔记/CompurterScience/5.算数逻辑单元.md",
     "学习笔记/CompurterScience/4.二进制.md",
@@ -235,13 +338,6 @@
     "项目笔记/Vue/localStorage设置过期时间.md",
     "项目笔记/Vue/router中主动跳转页面时报错.md",
     "项目笔记/Vue/获取当前滚动条的位置.md",
-    "项目笔记/Vue/vue打包后本地快速运行anywhere插件.md",
-    "项目笔记/Vue/vue打包.md",
-    "项目笔记/Vue/Vue下URL地址栏参数改变却不能刷新界面.md",
-    "项目笔记/Vue/css中文字超出div.md",
-    "项目笔记/Vue/vue中滚动页面到一定距离后固定.md",
-    "项目笔记/Vue/vue实现跳转浏览器新的标签页.md",
-    "项目笔记/Vue/关于vue 的 this.$refs 打印为undefined解决办法.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue"
   ]
