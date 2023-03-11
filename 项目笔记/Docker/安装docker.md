@@ -17,14 +17,24 @@ curl -sSL https://get.daocloud.io/docker | sh
 1. 卸载旧版本依赖
 
 ```
-yum remove docker \                   docker-client \                   docker-client-latest \                   docker-common \                   docker-latest \                   docker-latest-logrotate \                   docker-logrotate \                   docker-engine
+yum remove docker \
+	docker-client \
+	docker-client-latest \
+	docker-common \
+	docker-latest \
+	docker-latest-logrotate \
+	docker-logrotate \
+	docker-engine
 ```
 
 2. 设置仓库
 
 安装所需的软件包。yum-utils 提供了 yum-config-manager ，并且 device mapper 存储驱动程序需要 device-mapper-persistent-data 和 lvm2。
 
-sudo yum install -y yum-utils \  device-mapper-persistent-data \  lvm2
+```
+sudo yum install -y yum-utils \
+`device-mapper-persistent-data \  lvm2
+```
 
 使用以下命令来设置稳定的仓库。阿里云仓库
 
