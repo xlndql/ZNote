@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "df4448de8045ea85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Vue/element-ui/Tag标签实现路由导航.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
+                "file": "项目笔记/Vue/element-ui/Tag标签实现路由导航.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
+                "file": "项目笔记/Vue/element-ui/Tag标签实现路由导航.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md"
+                "file": "项目笔记/Vue/element-ui/Tag标签实现路由导航.md"
               }
             }
           }
@@ -172,10 +184,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "800141408fcd6282",
+  "active": "df4448de8045ea85",
   "lastOpenFiles": [
-    "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md",
     "项目笔记/Vue/element-ui/抽屉式菜单切换时自动关闭的方法.md",
+    "项目笔记/Vue/element-ui/Tag标签实现路由导航.md",
+    "项目笔记/Docker/解决docker 提示权限不足，不想每次用sudo前缀的方法.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
     "项目笔记/Docker/安装docker.md",
