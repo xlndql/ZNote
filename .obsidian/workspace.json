@@ -13,13 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/Linux/没有防火墙的情况下开放端口.md",
+                "file": "项目笔记/Linux/没有防火墙的情况下开放端口.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d76ad900e3eb3c6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Linux/没有防火墙的情况下开放端口.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99f22a6fd7067bfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Linux/Linux安装JDK.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "239dba06a782253c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Linux/Linux安装Nginx.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc24c0dbc92fe87f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Linux/linux下启动springboot项目.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7478db6fc2db3502",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -85,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/Linux/没有防火墙的情况下开放端口.md",
+                "file": "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/Linux/没有防火墙的情况下开放端口.md",
+                "file": "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/Linux/没有防火墙的情况下开放端口.md"
+                "file": "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md"
               }
             }
           }
@@ -147,12 +208,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2bb01aaa6037ed86",
+  "active": "7478db6fc2db3502",
   "lastOpenFiles": [
-    "学习笔记/Linux/linux下启动springboot项目.md",
-    "学习笔记/Linux/没有防火墙的情况下开放端口.md",
-    "学习笔记/Linux/Linux安装Nginx.md",
-    "学习笔记/Linux/Linux安装JDK.md",
+    "项目笔记/Linux/linux下启动springboot项目.md",
+    "项目笔记/Docker/docker安装centos、jdk、mysql、redis.md",
+    "项目笔记/Docker",
+    "项目笔记/Linux/Linux安装Nginx.md",
+    "项目笔记/Linux/Linux安装JDK.md",
+    "项目笔记/Linux/没有防火墙的情况下开放端口.md",
+    "项目笔记/未命名.md",
+    "项目笔记/Linux",
     "其它笔记/电子书资源.md",
     "学习笔记/Linux",
     "学习笔记/c++/学习笔记.md",
@@ -165,8 +230,6 @@
     "obsidian配置过程记录.md",
     "学习笔记/c",
     "学习笔记/c++",
-    "学习笔记/c sharp",
-    "学习笔记/java",
     "().md",
     "README.md",
     "未命名.md",
