@@ -1,17 +1,7 @@
 {
   "pinned": [
-<<<<<<< HEAD
-<<<<<<< HEAD
+    "obsidian-git:pull",
     "obsidian-git:push2",
-    "obsidian-git:commit",
-    "obsidian-git:pull"
-=======
-    "obsidian-git:push2"
->>>>>>> origin/master
-=======
-    "obsidian-git:push2",
-    "obsidian-git:commit",
-    "obsidian-git:pull"
->>>>>>> origin/master
+    "obsidian-git:commit"
   ]
 }
