@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6611eb408bcfa8e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/CompurterScience/6.寄存器和内存.md",
+                "file": "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/CompurterScience/6.寄存器和内存.md",
+                "file": "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/CompurterScience/6.寄存器和内存.md"
+                "file": "学习笔记/CompurterScience/7.中央处理器（CPU）.md"
               }
             }
           }
@@ -184,20 +196,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "6611eb408bcfa8e3",
   "lastOpenFiles": [
-    "Pasted image 20230311215628.png",
+    "Pasted image 20230311215736.png",
+    "Pasted image 20230311215729.png",
+    "Pasted image 20230311215722.png",
+    "Pasted image 20230311215719.png",
+    "Pasted image 20230311215710.png",
+    "Pasted image 20230311215703.png",
+    "学习笔记/CompurterScience/6.寄存器和内存.md",
+    "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215628.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215622.png",
-    "Pasted image 20230311215612.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215612.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215604.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215555.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215552.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215543.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215535.png",
-    "Pasted image 20230311215526.png",
-    "Pasted image 20230311215521.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215516.png",
-    "学习笔记/CompurterScience/6.寄存器和内存.md",
     "学习笔记/CompurterScience/5.算数逻辑单元.md",
     "学习笔记/CompurterScience/4.二进制.md",
     "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
@@ -229,7 +242,6 @@
     "项目笔记/Vue/vue中滚动页面到一定距离后固定.md",
     "项目笔记/Vue/vue实现跳转浏览器新的标签页.md",
     "项目笔记/Vue/关于vue 的 this.$refs 打印为undefined解决办法.md",
-    "项目笔记/Vue/vue中父组件调用子组件的属性和方法.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue"
   ]
