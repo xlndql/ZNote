@@ -48,5 +48,12 @@ uploadFileChange(e) {
 	axios.post('/upload',formdata).then(res => {
 		 // 这里获取到的是mavon编辑器实例，上面挂载着很多方法 
 		 const $vm = this.$refs.md 
-		 // 将文件名与文件路径插入当前光标位置，这是mavon-editor 内置的方法 $vm.insertText($vm.getTextareaDom(), { prefix: `[${file.name}](${res.data.path})`, subfix: '', str: '' }) }) },
+		 // 将文件名与文件路径插入当前光标位置，这是mavon-editor 内置的方法 
+		 $vm.insertText($vm.getTextareaDom(), { 
+			 prefix: `[${file.name}](${res.data.path})`, 
+			 subfix: '', 
+			 str: '' 
+		}) 
+	}) 
+},
 ```

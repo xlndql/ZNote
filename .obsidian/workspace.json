@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b36b02aff5a82e8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Vue/vue创建项目.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Vue/mavonEditor 添加文件上传功能.md",
+                "file": "项目笔记/Vue/vue创建项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Vue/mavonEditor 添加文件上传功能.md",
+                "file": "项目笔记/Vue/vue创建项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Vue/mavonEditor 添加文件上传功能.md"
+                "file": "项目笔记/Vue/vue创建项目.md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "93a9bc447d981380",
+  "active": "b36b02aff5a82e8e",
   "lastOpenFiles": [
-    "项目笔记/Vue/localStorage设置过期时间.md",
     "项目笔记/Vue/mavonEditor 添加文件上传功能.md",
+    "项目笔记/Vue/vue创建项目.md",
+    "项目笔记/Vue/localStorage设置过期时间.md",
     "项目笔记/Vue/router中主动跳转页面时报错.md",
     "项目笔记/Vue/获取当前滚动条的位置.md",
     "项目笔记/Vue/vue打包后本地快速运行anywhere插件.md",
@@ -174,7 +188,6 @@
     "项目笔记/Vue/动态监视页面分辨率变化.md",
     "项目笔记/Vue/vue项目刷新报错.md",
     "项目笔记/Vue/vue打包后图片路径报错.md",
-    "项目笔记/Vue/vue打包后找不到页面 404 not found.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue",
     "项目笔记/Docker/images",
