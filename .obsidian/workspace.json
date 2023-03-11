@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3f5dd3f6e5ad5292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/CompurterScience/5.算数逻辑单元.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/CompurterScience/4.二进制.md",
+                "file": "学习笔记/CompurterScience/5.算数逻辑单元.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/CompurterScience/4.二进制.md",
+                "file": "学习笔记/CompurterScience/5.算数逻辑单元.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/CompurterScience/4.二进制.md"
+                "file": "学习笔记/CompurterScience/5.算数逻辑单元.md"
               }
             }
           }
@@ -172,11 +184,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "3f5dd3f6e5ad5292",
   "lastOpenFiles": [
+    "Pasted image 20230311215337.png",
+    "Pasted image 20230311215326.png",
+    "Pasted image 20230311215310.png",
+    "Pasted image 20230311215255.png",
+    "学习笔记/CompurterScience/4.二进制.md",
+    "学习笔记/CompurterScience/5.算数逻辑单元.md",
     "学习笔记/CompurterScience/images/Pasted image 20230311215231.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311214946.png",
-    "学习笔记/CompurterScience/4.二进制.md",
     "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
     "学习笔记/CompurterScience/images",
     "学习笔记/CompurterScience/images/Pasted image 20230311215143.png",
@@ -184,10 +201,6 @@
     "学习笔记/CompurterScience/images/Pasted image 20230311215129.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215125.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215120.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215107.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215103.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215058.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215054.png",
     "学习笔记/CompurterScience/2.电子计算机.md",
     "学习笔记/CompurterScience/1.计算机早期历史.md",
     "学习笔记/CompurterScience",
@@ -217,7 +230,6 @@
     "项目笔记/Vue/关于vue 的 this.$refs 打印为undefined解决办法.md",
     "项目笔记/Vue/vue中父组件调用子组件的属性和方法.md",
     "项目笔记/Vue/vue使用markdown编辑器.md",
-    "项目笔记/Vue/xs、sm、md、lg 和 xl.md",
     "项目笔记/Vue/element-ui",
     "项目笔记/Vue"
   ]
