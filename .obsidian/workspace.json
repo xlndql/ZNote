@@ -4,191 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7d2c3e26abc28523",
+        "id": "b372dee637af71e9",
         "type": "tabs",
         "children": [
           {
-            "id": "3b9863f3afb704d6",
+            "id": "0d9f597bf96ae4b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/1.计算机早期历史.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76f632cb4f578f03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/2.电子计算机.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9171971a4808bed6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/4.二进制.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28d799d6d424f5c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/6.寄存器和内存.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6611eb408bcfa8e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/7.中央处理器（CPU）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cefec16893dcfd4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/8.指令和程序.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07310cda0f85ab71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/9.高级CPU设计.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98f52fae1000f50f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/10.早期的编程方式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36d8622a981590a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/11.编程语言的发展史.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73f08061a03ff144",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/12.编程基础 - 语句和函数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9eaf1b110b2c655",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/13.算法入门.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04e40bbf0639578b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/14.数据结构.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d28666ca2cf080f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30a4c9a73a80e19b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目笔记/npm/npm install 安装依赖常见错误总结.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc007d4a674c9503",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/软件工程导论/复习提纲.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 14
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/软件工程导论/复习提纲.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/软件工程导论/复习提纲.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "学习笔记/软件工程导论/复习提纲.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -316,10 +139,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cc007d4a674c9503",
+  "active": "0d9f597bf96ae4b4",
   "lastOpenFiles": [
-    "项目笔记/npm/npm install 安装依赖常见错误总结.md",
+    "学习笔记/C++/学习笔记.md",
     "学习笔记/软件工程导论/复习提纲.md",
+    "项目笔记/npm/npm install 安装依赖常见错误总结.md",
     "学习笔记/软件工程导论",
     "学习笔记/CompurterScience/15.阿兰 · 图灵.md",
     "项目笔记/npm",
@@ -362,7 +186,6 @@
     "项目笔记/Vue/vue创建项目.md",
     "项目笔记/Python/Excel",
     "项目笔记/Python",
-    "项目笔记/Vue/mavonEditor 添加文件上传功能.md",
-    "项目笔记/Vue/localStorage设置过期时间.md"
+    "项目笔记/Vue/mavonEditor 添加文件上传功能.md"
   ]
 }
