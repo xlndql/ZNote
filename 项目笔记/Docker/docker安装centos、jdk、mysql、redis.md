@@ -16,57 +16,86 @@ docker search jdk
 
 下载镜像：
 
+```
 docker pull docker.io/lwieske/java-8
+```
 
 查看镜像：
 
+```
 docker images
+```
 
 启动镜像：
 
+```
 docker run -it --name jdk1.8 -d java:latest /bin/bash
+```
 
 查看容器：
 
+```
 docker ps
+```
 
 查看所有容器：
 
+```
 docker ps -l
+```
 
 停止容器：
 
+```
 docker stop [容器id]
+```
 
 启动容器：
 
+```
 docker start [容器id]
+```
 
 删除容器：
 
+```
 docker rm [容器id]
+```
 
 删除镜像：
 
+```
 docker rmi [镜像id] docker rmi [镜像名称]:[tag]
+```
 
 进入容器：
 
+```
 docker attach [容器id]
+```
 
 Mysql
 
 安装mysql
 
+```
 docker pull mysql:8.0
+```
 
 启动mysql
 
-docker run -p 3308:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:8.0 // 若存在mysql重名情况则需要先删除容器 docker ps -a //查看容器 docker rm [镜像id] // 删除容器
+```
+docker run -p 3308:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:8.0 
+
+// 若存在mysql重名情况则需要先删除容器 docker ps -a //查看容器 
+docker rm [镜像id] // 删除容器
+```
 
 快捷运行
 
+```
 docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:8.0
+```
 
 参数解释：
 
