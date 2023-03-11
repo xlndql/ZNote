@@ -47,3 +47,5 @@ git push -u origin main
 ## 2.配置git
 
 我使用的是[MGit](https://f-droid.org/packages/com.manichord.mgit/)这个软件，可以很方便的进行github和gitee的连接。
+
+首先进入设置的SSH keys处生成新的密钥，然后在github或者gitee中添加这个密钥
