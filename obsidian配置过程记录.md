@@ -42,3 +42,4 @@ git push -u origin main
 
 ## 1.下载obsidian
 
+官方下载地址我没有找到，找到了第三方的下载地址：
