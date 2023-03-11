@@ -31,7 +31,9 @@ export default {
 				params: {hobby: hobby} 
 			}).then(res => { this.list = res.data.data; 
 			//获取接口中的数据，并赋值 
-		}) 
+			}) 
+		} 
 	} 
-	} } </script>
+} 
+</script>
 ```
