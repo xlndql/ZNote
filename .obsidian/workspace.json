@@ -11,8 +11,12 @@
             "id": "920231cae6dcc6d6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
+                "file": "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
+                "file": "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目笔记/Python/python使用Excel文件（增、删、改、查）.md"
+                "file": "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md"
               }
             }
           }
@@ -143,13 +147,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "920231cae6dcc6d6",
   "lastOpenFiles": [
+    "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
+    "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
     "项目笔记/Redis",
     "学习笔记/Algorithms",
     "学习笔记/DataStructure",
     "项目笔记/Python/Excel/未命名.md",
-    "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
     "项目笔记/Vue/vue创建项目.md",
     "项目笔记/Python/Excel",
     "项目笔记/Python",
@@ -180,7 +185,6 @@
     "项目笔记/Docker/images",
     "项目笔记/Docker/images/Pasted image 20230311181531.png",
     "项目笔记/Docker",
-    "项目笔记/Linux",
-    "学习笔记/Linux"
+    "项目笔记/Linux"
   ]
 }
