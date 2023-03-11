@@ -121,22 +121,29 @@ ALTER USER 'root'@'%' IDENTIFIED BY '123456'; flush privileges;
 
 mysql配置文件: vim /mydata/mysql/conf/my.cnf
 
-``` shell
+``` js
 [client] 
 default-character-set=utf8 
 [mysql] 
 default-character-set=utf8 
 [mysqld] 
-init_connect='SET collation_ connection = utf8_ unicode_ci' init_connect='SET NAMES utf8' character-set-server=utf8 collation-server=utf8_unicode_ci skip-character-set-client-handshake skip-name-resolve
+init_connect='SET collation_ connection = utf8_ unicode_ci' 
+init_connect='SET NAMES utf8' 
+character-set-server=utf8 
+collation-server=utf8_unicode_ci 
+skip-character-set-client-handshake 
+skip-name-resolve
 ```
 
 安装Oracle
 
+```
 # 安装oracle https://hub.docker.com/r/oracleinanutshell/oracle-xe-11g docker pull oracleinanutshell/oracle-xe-11g # 运行镜像 -p: 是容器内部端口绑定到指定的主机端口 docker run --name oracle -d -p 1521:1521 -e ORACLE_ALLOW_REMOTE=true oracleinanutshell/oracle-xe-11g # 进入容器 docker exec -it 容器id /bin/bash # 连接 oracle su oracle cd $ORACLE_HOME bin/sqlplus / as sysdba # 创建账号 create user qingxi identified by 123456; grant connect,resource to qingxi; # 修改密码 alter user 用户名 identified by 新密码; # 删除用户 drop user 用户名;
 
 安装Postgresql
 
 # 拉取镜像 docker pull postgres # 启动镜像 docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=pass123 postgres # 进入容器 docker exec -it 容器id /bin/bash # 连接pg psql -U postgres -h 127.0.0.1 -p 5432
+```
 
 安装redis
 
