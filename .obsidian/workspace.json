@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "b2b134e9e8c230b6",
+            "id": "9171971a4808bed6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
+                "file": "学习笔记/CompurterScience/4.二进制.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
+                "file": "学习笔记/CompurterScience/4.二进制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
+                "file": "学习笔记/CompurterScience/4.二进制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md"
+                "file": "学习笔记/CompurterScience/4.二进制.md"
               }
             }
           }
@@ -172,21 +172,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b2b134e9e8c230b6",
+  "active": "108a4fc518989e51",
   "lastOpenFiles": [
-    "Pasted image 20230311215140.png",
-    "Pasted image 20230311215129.png",
-    "Pasted image 20230311215125.png",
-    "Pasted image 20230311215120.png",
-    "Pasted image 20230311215107.png",
-    "Pasted image 20230311215103.png",
-    "Pasted image 20230311215058.png",
-    "Pasted image 20230311215054.png",
-    "Pasted image 20230311215038.png",
-    "Pasted image 20230311215034.png",
-    "Pasted image 20230311215029.png",
-    "学习笔记/CompurterScience/2.电子计算机.md",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215231.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311214946.png",
+    "学习笔记/CompurterScience/4.二进制.md",
     "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
+    "学习笔记/CompurterScience/images",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215143.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215140.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215129.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215125.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215120.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215107.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215103.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215058.png",
+    "学习笔记/CompurterScience/images/Pasted image 20230311215054.png",
+    "学习笔记/CompurterScience/2.电子计算机.md",
     "学习笔记/CompurterScience/1.计算机早期历史.md",
     "学习笔记/CompurterScience",
     "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
@@ -216,9 +218,7 @@
     "项目笔记/Vue/vue中父组件调用子组件的属性和方法.md",
     "项目笔记/Vue/vue使用markdown编辑器.md",
     "项目笔记/Vue/xs、sm、md、lg 和 xl.md",
-    "项目笔记/Vue/vue配置nginx反向代理.md",
     "项目笔记/Vue/element-ui",
-    "项目笔记/Vue",
-    "项目笔记/Docker/images"
+    "项目笔记/Vue"
   ]
 }
