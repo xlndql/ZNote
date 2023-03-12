@@ -44,13 +44,6 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				  * gRPC
 				  * Thrift
 				  * Netty
-				    * IO 模型（BIO/NIO）
-				    * Channel
-				    * Buffer
-				    * Seletor
-				    * Netty 模型
-				    * WebSocket 编程
-
 			- 数据库
 				- ORM层框架
 					- MyBatis
