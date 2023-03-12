@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/applicationFramework/applicationFramework.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/applicationFramework/applicationFramework.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/applicationFramework/applicationFramework.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/applicationFramework/applicationFramework.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,10 +148,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "e6f2c5cfa48d7863",
   "lastOpenFiles": [
-    "学习笔记/applicationFramework/backEnd/spring/spring.md",
     "学习笔记/applicationFramework/applicationFramework.md",
+    "学习笔记/applicationFramework/backEnd/spring/spring.md",
     "back-end/spring/spring.md",
     "back-end/spring",
     "back-end",
