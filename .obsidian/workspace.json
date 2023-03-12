@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d2e0888ad6ae16c",
+        "id": "d324ea15b3f81973",
         "type": "tabs",
         "children": [
           {
-            "id": "90122205b9a6867b",
+            "id": "c3f557baf38118fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,10 +148,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90122205b9a6867b",
+  "active": "c3f557baf38118fa",
   "lastOpenFiles": [
-    "学习笔记/database/database.md",
+    "1673753859185.md",
     "刷题笔记/data-structure-and-algorithm.md",
+    "学习笔记/database/database.md",
     "刷题笔记/leetcode/explanation/algorithm/search/image/offer04/1674469523658.png",
     "刷题笔记/leetcode/explanation/algorithm/search/image/offer04",
     "刷题笔记/leetcode/explanation/data-structure/string/offer58.md",
@@ -178,7 +179,6 @@
     "刷题笔记/leetcode/explanation/algorithm/dynamic/offer47.md",
     "刷题笔记/leetcode/explanation/algorithm/dynamic/offer46.md",
     "刷题笔记/leetcode/explanation/algorithm/dynamic/offer42.md",
-    "刷题笔记/leetcode/explanation/algorithm/dynamic/offer10-2.md",
     "刷题笔记/leetcode/explanation/data-structure/string",
     "刷题笔记/leetcode/explanation/data-structure/stack",
     "刷题笔记/leetcode/explanation/data-structure/queue",
