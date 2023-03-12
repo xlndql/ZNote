@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.50840759277344,
-    "collapsed": true
+    "width": 210.50840759277344
   },
   "right": {
     "id": "6312c8862f573144",
@@ -145,7 +144,8 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "e6f2c5cfa48d7863",
