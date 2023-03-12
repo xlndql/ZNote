@@ -11,28 +11,11 @@
             "id": "90122205b9a6867b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/database/database.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f60784b6cdd973f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/mysql/未命名.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/mysql/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/mysql/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "学习笔记/mysql/未命名.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -161,10 +140,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f60784b6cdd973f",
+  "active": "108a4fc518989e51",
   "lastOpenFiles": [
+    "学习笔记/mysql/MySQL学习目录.md",
     "学习笔记/database/database.md",
-    "学习笔记/mysql/未命名.md",
     "学习笔记/mysql",
     "学习笔记/c++/学习笔记.md",
     "学习笔记/database",
