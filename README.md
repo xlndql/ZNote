@@ -39,9 +39,9 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 					- HikariCP
 					- C3P0
 				- 分库分表
-  * MyCat
-  * Sharding-JDBC
-  * Sharding-Sphere
+				  * MyCat
+				  * Sharding-JDBC
+				  * Sharding-Sphere
 			- 搜索引擎
 			- 分布式/微服务
 			- 虚拟化/容器化
