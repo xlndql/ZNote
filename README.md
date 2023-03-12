@@ -23,7 +23,7 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 		- 后端
 			- Spring家族
 				- Spring
-				* [Spring MVC](./springmvc/springmvc.md)
+				* Spring MVC
 				* [Spring Boot 2](./springboot2/springboot2.md)
 				* [Spring Cloud](./springcloud/springcloud.md)
 				* [Spring Cloud Alibaba](./springcloudalibaba/springcloudalibaba.md)
