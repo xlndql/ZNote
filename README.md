@@ -29,19 +29,12 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				- Swagger 接口文档
 				* Postman 接口测试
 			- 服务器软件
-			* Web服务器
-  * Nginx
-    * 概念
-    * 正向代理
-    * 反向代理（负载均衡）
-    * 常用命令
-    * 配置
-    * 动静分离（网站部署）
-    * 集群搭建
-* 应用服务器
-  * Tomcat
-  * Jetty
-  * Undertow
+				* Web服务器
+					* Nginx
+				* 应用服务器
+					* Tomcat
+					* Jetty
+					* Undertow
 			- 中间件
 				- 缓存
 				* 消息队列
