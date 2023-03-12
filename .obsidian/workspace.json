@@ -36,8 +36,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e574d85ecffbb506",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/microservice/springSecurity/目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/microservice/springSecurity/目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/microservice/springSecurity/目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "学习笔记/microservice/springSecurity/目录.md"
               }
             }
           }
@@ -166,13 +179,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "e574d85ecffbb506",
   "lastOpenFiles": [
-    "学习笔记/microservice/未命名",
+    "README.md",
+    "学习笔记/microservice/springSecurity/目录.md",
+    "学习笔记/microservice/springSecurity",
+    "学习笔记/microservice/shiro",
+    "学习笔记/microservice/apollo",
     "学习笔记/microservice/config",
     "学习笔记/microservice/microservice介绍.md",
     "学习笔记/microservice/load-balance/ribbon/ribbon.md",
-    "README.md",
     "学习笔记/microservice/hystrix",
     "学习笔记/microservice/load-balance/load-balance.md",
     "学习笔记/microservice/gateway",
@@ -183,11 +199,8 @@
     "学习笔记/microservice/eureka/eureka学习.md",
     "学习笔记/applicationFramework/backEnd/microservice/registry/eureka/eureka.md",
     "学习笔记/applicationFramework/backEnd/microservice/目录.md",
-    "学习笔记/microservice/eureka",
     "学习笔记/applicationFramework/backEnd/microservice/registry/register.md",
     "学习笔记/applicationFramework/backEnd/spring/springcloudalibaba/springcloudalibaba.md",
-    "学习笔记/microservice/springCloudAlibaba",
-    "学习笔记/microservice/springCloud",
     "学习笔记/未命名.md",
     "学习笔记/applicationFramework/backEnd/interfaceManagement/interface-management.md",
     "学习笔记/applicationFramework/backEnd/database/database.md",
