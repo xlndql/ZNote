@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "刷题笔记/data-structure-and-algorithm.md",
+                "file": "刷题笔记/数据结构和算法学习笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "刷题笔记/data-structure-and-algorithm.md",
+                "file": "刷题笔记/数据结构和算法学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "刷题笔记/data-structure-and-algorithm.md",
+                "file": "刷题笔记/数据结构和算法学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "刷题笔记/data-structure-and-algorithm.md"
+                "file": "刷题笔记/数据结构和算法学习笔记.md"
               }
             }
           }
@@ -151,7 +151,7 @@
   "active": "c3f557baf38118fa",
   "lastOpenFiles": [
     "1673753859185.md",
-    "刷题笔记/data-structure-and-algorithm.md",
+    "刷题笔记/数据结构和算法学习笔记.md",
     "学习笔记/database/database.md",
     "刷题笔记/leetcode/explanation/algorithm/search/image/offer04/1674469523658.png",
     "刷题笔记/leetcode/explanation/algorithm/search/image/offer04",
@@ -187,14 +187,14 @@
     "刷题笔记/leetcode/explanation/algorithm/search",
     "刷题笔记/leetcode/explanation/algorithm/other",
     "刷题笔记/leetcode/explanation/algorithm/dynamic",
-    "刷题笔记/image/data-structure-and-algorithm/1674285969962.png",
-    "刷题笔记/image/data-structure-and-algorithm/1674215621005.png",
-    "刷题笔记/image/data-structure-and-algorithm/1674283886689.png",
-    "刷题笔记/image/data-structure-and-algorithm/1674204880696.png",
-    "刷题笔记/image/data-structure-and-algorithm/1674202348863.png",
-    "刷题笔记/image/data-structure-and-algorithm/1674199865770.png",
-    "刷题笔记/image/data-structure-and-algorithm/1674139873704.png",
-    "刷题笔记/image/data-structure-and-algorithm/1674138179977.png",
-    "刷题笔记/image/data-structure-and-algorithm/1673843479341.png"
+    "刷题笔记/image/1674285969962.png",
+    "刷题笔记/image/1674215621005.png",
+    "刷题笔记/image/1674283886689.png",
+    "刷题笔记/image/1674204880696.png",
+    "刷题笔记/image/1674202348863.png",
+    "刷题笔记/image/1674199865770.png",
+    "刷题笔记/image/1674139873704.png",
+    "刷题笔记/image/1674138179977.png",
+    "刷题笔记/image/1673843479341.png"
   ]
 }
