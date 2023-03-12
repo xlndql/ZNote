@@ -36,8 +36,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d3f5f71669fa18ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/cache/目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/cache/目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/cache/目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "学习笔记/cache/目录.md"
               }
             }
           }
@@ -166,10 +179,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90122205b9a6867b",
+  "active": "d3f5f71669fa18ba",
   "lastOpenFiles": [
-    "学习笔记/applicationFramework/backEnd/middleware/middleware.md",
     "README.md",
+    "学习笔记/cache/目录.md",
+    "学习笔记/cache",
+    "学习笔记/applicationFramework/backEnd/middleware/middleware.md",
     "学习笔记/microservice/ELK",
     "学习笔记/microservice/Skywalking",
     "学习笔记/microservice/Sleuth",
@@ -179,7 +194,6 @@
     "学习笔记/microservice/LCN模式",
     "学习笔记/microservice/SAGA模式",
     "学习笔记/microservice/TCC模式",
-    "学习笔记/microservice/XA模式",
     "学习笔记/microservice/springSecurity/目录.md",
     "学习笔记/microservice/microservice介绍.md",
     "学习笔记/microservice/load-balance/ribbon/ribbon.md",
@@ -204,7 +218,6 @@
     "学习笔记/applicationFramework/backEnd/spring/spring.md",
     "back-end/spring/spring.md",
     "学习笔记/applicationFramework/backEnd/serverSoftware/server-software.md",
-    "学习笔记/applicationFramework/backEnd/searchEngine/search-engine.md",
     "学习笔记/microservice/load-balance/image/microservice/v2-3661c2082103036ecb23a3f29be740be_b.gif",
     "学习笔记/microservice/load-balance/image/microservice/1673944453709.png",
     "学习笔记/microservice/load-balance/image/microservice/1673678255090.png",
