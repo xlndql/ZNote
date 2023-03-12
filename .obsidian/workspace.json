@@ -141,6 +141,8 @@
   },
   "active": "0d9f597bf96ae4b4",
   "lastOpenFiles": [
+    "学习笔记/汇编语言/未命名",
+    "学习笔记/汇编语言",
     "学习笔记/C++/学习笔记.md",
     "学习笔记/软件工程导论/复习提纲.md",
     "项目笔记/npm/npm install 安装依赖常见错误总结.md",
@@ -184,8 +186,6 @@
     "学习笔记/DataStructure",
     "项目笔记/Python/Excel/未命名.md",
     "项目笔记/Vue/vue创建项目.md",
-    "项目笔记/Python/Excel",
-    "项目笔记/Python",
-    "项目笔记/Vue/mavonEditor 添加文件上传功能.md"
+    "项目笔记/Python/Excel"
   ]
 }
