@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/operatingSystem/operating-system.md",
+                "file": "学习笔记/softwareEngineering/软件工程学习目录.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/operatingSystem/operating-system.md",
+                "file": "学习笔记/softwareEngineering/软件工程学习目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/operatingSystem/operating-system.md",
+                "file": "学习笔记/softwareEngineering/软件工程学习目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/operatingSystem/operating-system.md"
+                "file": "学习笔记/softwareEngineering/软件工程学习目录.md"
               }
             }
           }
@@ -150,8 +150,10 @@
   },
   "active": "c3f557baf38118fa",
   "lastOpenFiles": [
+    "学习笔记/operatingSystem/操作系统学习目录.md",
+    "学习笔记/softwareEngineering/软件工程学习目录.md",
+    "学习笔记/softwareEngineering",
     "学习笔记/java/javaWeb/javaweb.md",
-    "学习笔记/operatingSystem/operating-system.md",
     "学习笔记/operatingSystem",
     "学习笔记/java/java8/java8.md",
     "学习笔记/java/并发多线程/concurrency.md",
@@ -178,7 +180,6 @@
     "学习笔记/java/image/base",
     "学习笔记/java/JVM/jvm.md",
     "学习笔记/java/image",
-    "学习笔记/java-language/javaweb",
     "学习笔记/git/git学习笔记.md",
     "学习笔记/discreteMath/离散数学学习笔记.md",
     "学习笔记/开发规范/开发规范学习目录.md",
@@ -194,7 +195,6 @@
     "刷题笔记/leetcode/explanation/data-structure/linked-list/offer35.md",
     "刷题笔记/leetcode/explanation/data-structure/linked-list/offer24.md",
     "刷题笔记/leetcode/explanation/data-structure/linked-list/offer06.md",
-    "刷题笔记/leetcode/explanation/data-structure/hash-map/LeetCode-710.md",
-    "刷题笔记/leetcode/explanation/data-structure/hash-map/LeetCode-380.md"
+    "刷题笔记/leetcode/explanation/data-structure/hash-map/LeetCode-710.md"
   ]
 }
