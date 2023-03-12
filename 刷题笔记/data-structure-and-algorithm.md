@@ -1,0 +1,1057 @@
+# 数据结构和算法
+
+学习笔记总结自黑马程序员的视频。
+
+## 目录
+
+* 数据结构
+  * 数组
+  * 链表
+  * 栈
+  * 队列
+  * 树
+    * 二叉树
+      * 二叉树遍历框架
+      * 层序遍历框架
+    * 多叉树
+  * 图
+  * 散列表
+  * 堆
+* 算法
+  * 排序
+  * 双指针
+  * 查找
+  * 分治
+  * 动态规划
+  * 递归
+  * 回溯
+  * 贪心
+  * 位运算
+  * DFS
+  * BFS
+  * 图
+  * 数学
+* [LeetCodeBook](./leetcode/leetcode.md)
+
+## 数据结构
+
+内容来自 [图解算法数据结构 - LeetBook - 力扣（LeetCode）](https://leetcode.cn/leetbook/read/illustration-of-algorithm/50e446/)
+
+数据结构是为实现对计算机数据有效使用的各种数据组织形式，服务于各类计算机操作。不同的数据结构具有各自对应的适用场景，旨在降低各种算法计算的时间与空间复杂度，达到最佳的任务执行效率。
+
+如下图所示，常见的数据结构可分为「线性数据结构」与「非线性数据结构」，具体为：「数组」、「链表」、「栈」、「队列」、「树」、「图」、「散列表」、「堆」。
+
+![1673753859185](image/data-structure-and-algorithm/1673753859185.png)
+
+### 数组
+
+数组是将相同类型的元素储存于连续内存空间的数据结构，其长度不可变。
+
+构建数组需要在其初始化时给定长度，并对数组每个索引元素赋值，代码如下：
+
+```java
+// 初始化一个长度为 5 的数组 array
+int[] array = new int[5];
+// 元素赋值
+array[0] = 2;
+array[1] = 3;
+array[2] = 1;
+array[3] = 0;
+array[4] = 2;
+```
+
+或者可以使用直接赋值的初始化方式，代码如下：
+
+```java
+int[] array = {2, 3, 1, 0, 2};
+```
+
+![1673754014246](image/data-structure-and-algorithm/1673754014246.png)可变数组是经常使用的数据结构，其基于数组和扩容机制实现，相比普通数组更加灵活。常用操作有：访问元素、添加元素、删除元素。
+
+```java
+// 初始化可变数组
+List<Integer> array = new ArrayList<>();
+
+// 向尾部添加元素
+array.add(2);
+array.add(3);
+array.add(1);
+array.add(0);
+array.add(2);
+```
+
+### 链表
+
+链表以节点为单位，每个元素都是一个独立对象，在内存空间的存储是非连续的。链表的节点对象具有两个成员变量：「值 `val`」，「后继节点引用 `next`」 。
+
+```java
+class ListNode {
+    int val;       // 节点值
+    ListNode next; // 后继节点引用
+    ListNode(int x) { val = x; }
+}
+```
+
+如下图所示，建立此链表需要实例化每个节点，并构建各节点的引用指向。
+
+```java
+// 实例化节点
+ListNode n1 = new ListNode(4); // 节点 head
+ListNode n2 = new ListNode(5);
+ListNode n3 = new ListNode(1);
+
+// 构建引用指向
+n1.next = n2;
+n2.next = n3;
+```
+
+![1673754251290](image/data-structure-and-algorithm/1673754251290.png)
+
+### 栈
+
+栈是一种具有先入后出特点的抽象数据结构，可用数组或链表实现。
+
+```java
+Stack<Integer> stack = new Stack<>();
+```
+
+如下图所示，通过常用操作「入栈 `push()`」,「出栈 `pop()`」，展示了栈的先入后出特性。
+
+```java
+stack.push(1); // 元素 1 入栈
+stack.push(2); // 元素 2 入栈
+stack.pop();   // 出栈 -> 元素 2
+stack.pop();   // 出栈 -> 元素 1
+```
+
+![1673754336374](image/data-structure-and-algorithm/1673754336374.png)
+
+> 注意：通常情况下，不推荐使用 Java 的 Vector 以及其子类 Stack ，而一般将 LinkedList 作为栈来使用。[(131条消息) Stack，ArrayDeque，LinkedList的区别_cartoon23333的博客-CSDN博客_stack与arraydeque](https://blog.csdn.net/cartoon_/article/details/87992743)
+
+```java
+LinkedList<Integer> stack = new LinkedList<>();
+
+stack.addLast(1);   // 元素 1 入栈
+stack.addLast(2);   // 元素 2 入栈
+stack.removeLast(); // 出栈 -> 元素 2
+stack.removeLast(); // 出栈 -> 元素 1
+```
+
+### 队列
+
+队列是一种具有 「先入先出」 特点的抽象数据结构，可使用链表实现。
+
+```java
+Queue<Integer> queue = new LinkedList<>();
+```
+
+如下图所示，通过常用操作「入队 `offer()`」,「出队 `poll()`」，展示了队列的先入先出特性。
+
+```java
+queue.offer(1); // 元素 1 入队
+queue.offer(2); // 元素 2 入队
+queue.poll();   // 出队 -> 元素 1
+queue.poll();   // 出队 -> 元素 2
+```
+
+### 树
+
+树是一种非线性数据结构，根据子节点数量可分为 「二叉树」 和 「多叉树」，最顶层的节点称为「根节点 root」。以二叉树为例，每个节点包含三个成员变量：「值 val」、「左子节点 left」、「右子节点 right」。
+
+```java
+class TreeNode {
+    int val;        // 节点值
+    TreeNode left;  // 左子节点
+    TreeNode right; // 右子节点
+    TreeNode(int x) { val = x; }
+}
+```
+
+如下图所示，建立此二叉树需要实例化每个节点，并构建各节点的引用指向。
+
+```java
+// 初始化节点
+TreeNode n1 = new TreeNode(3); // 根节点 root
+TreeNode n2 = new TreeNode(4);
+TreeNode n3 = new TreeNode(5);
+TreeNode n4 = new TreeNode(1);
+TreeNode n5 = new TreeNode(2);
+
+// 构建引用指向
+n1.left = n2;
+n1.right = n3;
+n2.left = n4;
+n2.right = n5;
+```
+
+![1673788555967](image/data-structure-and-algorithm/1673788555967.png)
+
+#### 二叉树
+
+##### **二叉树遍历框架：**
+
+```java
+void traverse(TreeNode root) { 
+    if (root == null) { 
+        return; 
+    } 
+    // 前序位置 
+    traverse(root.left); 
+    // 中序位置 
+    traverse(root.right); 
+    // 后序位置 
+}
+```
+
+##### **层序遍历框架：**
+
+```java
+// 输⼊⼀棵⼆叉树的根节点，层序遍历这棵⼆叉树
+void levelTraverse(TreeNode root) { 
+    if (root == null) return; 
+    Queue<TreeNode> q = new LinkedList<>(); 
+    q.offer(root); 
+ 
+    // 从上到下遍历⼆叉树的每⼀层 
+    while (!q.isEmpty()) { 
+        int sz = q.size(); 
+        // 从左到右遍历每⼀层的每个节点 
+        for (int i = 0; i < sz; i++) { 
+            TreeNode cur = q.poll(); 
+            // 将下⼀层节点放⼊队列 
+            if (cur.left != null) { 
+                q.offer(cur.left); 
+            }
+	    if (cur.right != null) { 
+                q.offer(cur.right); 
+            } 
+        } 
+    } 
+}
+```
+
+### 图
+
+图是一种非线性数据结构，由「节点（顶点）vertex」和「边 edge」组成，每条边连接一对顶点。根据边的方向有无，图可分为「有向图」和「无向图」。本文 以无向图为例 开展介绍。
+
+如下图所示，此无向图的 顶点 和 边 集合分别为：
+
+顶点集合： vertices = {1, 2, 3, 4, 5}
+边集合： edges = {(1, 2), (1, 3), (1, 4), (1, 5), (2, 4), (3, 5), (4, 5)}
+
+![1673789011330](image/data-structure-and-algorithm/1673789011330.png)
+
+表示图的方法通常有两种：
+
+**1.领接矩阵：** 使用数组 vertices 存储顶点，领接矩阵 deges 存储边；edges[i][j] 代表节点 i + 1 和节点 j + 1 之间是否有边。
+
+![1673789308599](image/data-structure-and-algorithm/1673789308599.png)
+
+```java
+vertices = [1, 2, 3, 4, 5]
+edges = [[0, 1, 1, 1, 1],
+         [1, 0, 0, 1, 0],
+         [1, 0, 0, 0, 1],
+         [1, 1, 0, 0, 1],
+         [1, 0, 1, 1, 0]]
+```
+
+**2.邻接表：** 使用数组 vertices 存储顶点，邻接表 edges 存储边。edges 为一个二维容器，第一维 i 代表顶点索引，第二维 edges[i] 存储此顶点对应的边集合；例如 edges[0] = [1, 2, 3, 4] 代表 vertices 代表 vertices[0] 的边集合为 [1, 2, 3, 4]。
+
+![1673789525035](image/data-structure-and-algorithm/1673789525035.png)
+
+```java
+vertices = [1, 2, 3, 4, 5]
+edges = [[1, 2, 3, 4],
+         [0, 3],
+         [0, 4],
+         [0, 1, 4],
+         [0, 2, 3]]
+```
+
+> 邻接矩阵 VS 邻接表 ：
+>
+> 邻接矩阵的大小只与节点数量有关，即 N²，其中 NN 为节点数量。因此，当边数量明显少于节点数量时，使用邻接矩阵存储图会造成较大的内存浪费。
+> 因此，邻接表 适合存储稀疏图（顶点较多、边较少）； 邻接矩阵 适合存储稠密图（顶点较少、边较多）。
+
+### 散列表
+
+散列表是一种非线性数据结构，通过利用 Hash 函数将指定的「键 `key`」映射至对应的「值 `value`」，以实现高效的元素查找。
+
+> 设想一个简单场景：小力、小特、小扣的学号分别为 10001, 10002, 10003 。
+> 现需求从「姓名」查找「学号」。
+
+则可通过建立姓名为 `key` ，学号为 `value` 的散列表实现此需求，代码如下：
+
+```java
+// 初始化散列表
+Map<String, Integer> dic = new HashMap<>();
+
+// 添加 key -> value 键值对
+dic.put("小力", 10001);
+dic.put("小特", 10002);
+dic.put("小扣", 10003);
+
+// 从姓名查找学号
+dic.get("小力"); // -> 10001
+dic.get("小特"); // -> 10002
+dic.get("小扣"); // -> 10003
+```
+
+![1673840840420](image/data-structure-and-algorithm/1673840840420.png)
+
+### 堆
+
+堆是一种基于「完全二叉树」的数据结构，可使用数组实现。以堆为原理的排序算法称为「堆排序」，基于堆实现的数据结构为「优先队列」。堆分为「大顶堆」和「小顶堆」，大（小）顶堆：任意节点的值不大于（小于）其父节点的值。
+
+> 完全二叉树定义： 设二叉树深度为 k ，若二叉树除第 k 层外的其它各层（第 1 至 k−1 层）的节点达到最大个数，且处于第 k 层的节点都连续集中在最左边，则称此二叉树为完全二叉树。
+
+如下图所示，为包含 `1, 4, 2, 6, 8` 元素的小顶堆。将堆（完全二叉树）中的结点按层编号，即可映射到右边的数组存储形式。
+
+![1673843479341](image/data-structure-and-algorithm/1673843479341.png)
+
+通过使用「优先队列」的「压入 `push()`」和「弹出 `pop()`」操作，即可完成堆排序，实现代码如下：
+
+```java
+// 初始化小顶堆
+Queue<Integer> heap = new PriorityQueue<>();
+
+// 元素入堆
+heap.add(1);
+heap.add(4);
+heap.add(2);
+heap.add(6);
+heap.add(8);
+
+// 元素出堆（从小到大）
+heap.poll(); // -> 1
+heap.poll(); // -> 2
+heap.poll(); // -> 4
+heap.poll(); // -> 6
+heap.poll(); // -> 8
+```
+
+## 算法
+
+### 排序
+
+#### 冒泡排序 O(N²)
+
+冒泡排序（Bubble Sort），是一种计算机科学领域的较简单的排序算法。
+
+**需求：**
+
+* 排序前：{4,5,6,3,2,1}
+* 排序后：{1,2,3,4,5,6}
+
+**排序原理：**
+
+1. 比较相邻的元素。如果前一个元素比后一个元素大，就交换这两个元素的位置。
+2. 对每一对相邻元素做同样的工作，从开始第一对元素到结尾的最后一对元素。最终最后位置的元素就是最大值。
+
+![1674138179977](image/data-structure-and-algorithm/1674138179977.png)
+
+**冒泡排序 API 设计：**
+
+| 类名     | Bubble                                                                                                                                                                                                                                         |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 构造方法 | Bubble()：创建 Bubble 对象                                                                                                                                                                                                                     |
+| 成员方法 | 1.public static void sort(Comparable[] a)：对数组内的元素进行排序<br />2.private static boolean greater(Comparable v,Comparable w):判断v是否大于w<br />3.private static void exch(Comparable[] a,int i,int j)：交换a数组中，索引i和索引j处的值 |
+
+**冒泡排序的代码实现：**
+
+```java
+/**
+ * @Description TODO BubbleSort
+ * @Author ZFiend
+ * @Create 2023.01.19 22:19
+ */
+public class Bubble {
+    /**
+     * @description: TODO [sort] 冒泡排序方法
+     * @author: ZFiend
+     * @date: 2023/1/19 22:31
+     * @param: a
+     * @return: void
+     */
+    public static void sort(Comparable[] a) {
+        for (int i = a.length - 1; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                if (greater(a[j], a[j + 1])) {
+                    exchange(a, j, j + 1);
+                }
+            }
+        }
+    }
+
+    /**
+     * @description: TODO [greater] 比较元素 v 是否大于 w 元素
+     * @author: ZFiend
+     * @date: 2023/1/19 22:31
+     * @param: v
+     * @param: w
+     * @return: boolean
+     */
+    private static boolean greater(Comparable v, Comparable w) {
+        return v.compareTo(w) > 0;
+    }
+
+    /**
+     * @description: TODO [exchange] 数组元素 i 和 j 交换位置
+     * @author: ZFiend
+     * @date: 2023/1/19 22:30
+     * @param: a
+     * @param: i
+     * @param: j
+     * @return: void
+     */
+    private static void exchange(Comparable[] a, int i, int j) {
+        Comparable t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
+}
+```
+
+**冒泡排序的时间复杂度分析：**
+
+冒泡排序使用了双层for循环，其中内层循环的循环体是真正完成排序的代码，所以，
+我们分析冒泡排序的时间复杂度，主要分析一下内层循环体的执行次数即可。
+在最坏情况下，也就是假如要排序的元素为{6,5,4,3,2,1}逆序，那么：
+元素比较的次数为：
+ (N-1)+(N-2)+(N-3)+...+2+1=((N-1)+1)*(N-1)/2=N^2/2-N/2;
+元素交换的次数为：
+ (N-1)+(N-2)+(N-3)+...+2+1=((N-1)+1)*(N-1)/2=N^2/2-N/2;
+总执行次数为：
+ (N^2/2-N/2)+(N^2/2-N/2)=N^2-N;
+
+按照大O推导法则，保留函数中的最高阶项那么最终冒泡排序的时间复杂度为O(N^2).
+
+---
+
+#### 选择排序 O(N²)
+
+选择排序是一种更加简单直观的排序方法。
+
+**需求：**
+
+ 排序前：{4,6,8,7,9,2,10,1}
+ 排序后：{1,2,4,5,7,8,9,10}
+
+**排序原理：**
+ 1.每一次遍历的过程中，都假定第一个索引处的元素是最小值，和其他索引处的值依次进行比较，如果当前索引处的值大于其他某个索引处的值，则假定其他某个索引出的值为最小值，最后可以找到最小值所在的索引
+ 2.交换第一个索引处和最小值所在的索引处的值
+
+![1674139873704](image/data-structure-and-algorithm/1674139873704.png)
+
+**选择排序 API 设计：**
+
+| 类名     | Selection                                                                                                                                                                                                                                      |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 构造方法 | Selection()：创建 Selection 对象                                                                                                                                                                                                               |
+| 成员方法 | 1.public static void sort(Comparable[] a)：对数组内的元素进行排序<br />2.private static boolean greater(Comparable v,Comparable w):判断v是否大于w<br />3.private static void exch(Comparable[] a,int i,int j)：交换a数组中，索引i和索引j处的值 |
+
+**选择排序的代码实现：**
+
+```java
+/**
+ * @Description TODO Selection
+ * @Author ZFiend
+ * @Create 2023.01.19 23:30
+ */
+public class Selection {
+    /**
+     * @description: TODO [sort] 对数组的元素进行排序
+     * @author: ZFiend
+     * @date: 2023/1/20 15:22
+     * @param: a
+     * @return: void
+     */
+    public static void sort(Comparable[] a) {
+        for (int i = 0; i < a.length; i++) {
+            // 假设本次遍历中最小值的索引是 i
+            int minIndex = i;
+            for (int j = i + 1; j < a.length; j++) {
+                if (greater(a[minIndex], a[j])) {
+                    // 更新最小值的索引
+                    minIndex = j;
+                }
+            }
+            // 交换 i 和 最小值索引位置的值
+            exchange(a, i, minIndex);
+        }
+    }
+
+    /**
+     * @description: TODO [greater] 比较元素 v 是否大于 w 元素
+     * @author: ZFiend
+     * @date: 2023/1/19 22:31
+     * @param: v
+     * @param: w
+     * @return: boolean
+     */
+    private static boolean greater(Comparable v, Comparable w) {
+        return v.compareTo(w) > 0;
+    }
+
+    /**
+     * @description: TODO [exchange] 数组元素 i 和 j 交换位置
+     * @author: ZFiend
+     * @date: 2023/1/19 22:30
+     * @param: a
+     * @param: i
+     * @param: j
+     * @return: void
+     */
+    private static void exchange(Comparable[] a, int i, int j) {
+        Comparable t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
+}
+```
+
+**选择排序的时间复杂度分析：**
+选择排序使用了双层for循环，其中外层循环完成了数据交换，内层循环完成了数据比较，所以我们分别统计数据交换次数和数据比较次数：
+数据比较次数：
+ (N-1)+(N-2)+(N-3)+...+2+1=((N-1)+1)*(N-1)/2=N^2/2-N/2;
+
+数据交换次数：
+ N-1
+
+时间复杂度：N^2/2-N/2+（N-1）=N^2/2+N/2-1;
+根据大O推导法则，保留最高阶项，去除常数因子，时间复杂度为O(N^2);
+
+---
+
+#### 插入排序 O(N²)
+
+插入排序（Insertion sort）是一种简单直观且稳定的排序算法。
+插入排序的工作方式非常像人们排序一手扑克牌一样。开始时，我们的左手为空并且桌子上的牌面朝下。然后，我们每次从桌子上拿走一张牌并将它插入左手中正确的位置。为了找到一张牌的正确位置，我们从右到左将它与已在手中的每张牌进行比较。
+
+**需求：**
+
+排序前：{4,3,2,10,12,1,5,6}
+排序后：{1,2,3,4,5,6,10,12}
+
+**排序原理：**
+
+1.把所有的元素分为两组，已经排序的和未排序的；
+2.找到未排序的组中的第一个元素，向已经排序的组中进行插入；
+3.倒叙遍历已经排序的元素，依次和待插入的元素进行比较，直到找到一个元素小于等于待插入元素，那么就把待插入元素放到这个位置，其他的元素向后移动一位；
+
+![1674199865770](image/data-structure-and-algorithm/1674199865770.png)
+
+**插入排序 API 设计：**
+
+| 类名     | Insertion                                                                                                                                                                                                                                      |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 构造方法 | Insertion()：创建 Insertion 对象                                                                                                                                                                                                               |
+| 成员方法 | 1.public static void sort(Comparable[] a)：对数组内的元素进行排序<br />2.private static boolean greater(Comparable v,Comparable w):判断v是否大于w<br />3.private static void exch(Comparable[] a,int i,int j)：交换a数组中，索引i和索引j处的值 |
+
+**插入排序代码实现：**
+
+```java
+/**
+ * @Description TODO Insertion
+ * @Author ZFiend
+ * @Create 2023.01.20 15:34
+ */
+public class Insertion {
+    /**
+     * @description: TODO [sort] 对数组 a 中的元素进行排序
+     * @author: ZFiend
+     * @date: 2023/1/20 15:37
+     * @param: a
+     * @return: void
+     */
+    public static void sort(Comparable[] a) {
+        for (int i = 1; i < a.length; i++) {
+            // 当前元素为 a[i]，依次和 i 前面的元素比较，找到一个小于等于 a[i] 的元素
+            for (int j = i; j > 0; j--) {
+                if (greater(a[j - 1], a[j])) {
+                    exchange(a, j - 1, j);
+                } else {
+                    break;
+                }
+            }
+        }
+    }
+
+    /**
+     * @description: TODO [greater] 比较元素 v 是否大于 w 元素
+     * @author: ZFiend
+     * @date: 2023/1/19 22:31
+     * @param: v
+     * @param: w
+     * @return: boolean
+     */
+    private static boolean greater(Comparable v, Comparable w) {
+        return v.compareTo(w) > 0;
+    }
+
+    /**
+     * @description: TODO [exchange] 数组元素 i 和 j 交换位置
+     * @author: ZFiend
+     * @date: 2023/1/19 22:30
+     * @param: a
+     * @param: i
+     * @param: j
+     * @return: void
+     */
+    private static void exchange(Comparable[] a, int i, int j) {
+        Comparable t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
+}
+```
+
+**插入排序的时间复杂度分析：**
+插入排序使用了双层for循环，其中内层循环的循环体是真正完成排序的代码，所以，我们分析插入排序的时间复杂度，主要分析一下内层循环体的执行次数即可。
+最坏情况，也就是待排序的数组元素为{12,10,6,5,4,3,2,1}，那么：
+ 比较的次数为：
+ (N-1)+(N-2)+(N-3)+...+2+1=((N-1)+1)*(N-1)/2=N^2/2-N/2;
+ 交换的次数为：
+ (N-1)+(N-2)+(N-3)+...+2+1=((N-1)+1)*(N-1)/2=N^2/2-N/2;
+ 总执行次数为：
+ (N^2/2-N/2)+(N^2/2-N/2)=N^2-N;
+按照大O推导法则，保留函数中的最高阶项那么最终插入排序的时间复杂度为O(N^2).
+
+---
+
+#### 希尔排序 O(nlogn)
+
+希尔排序是插入排序的一种，又称“缩小增量排序”，是插入排序算法的一种更高效的改进版本。
+
+**需求：**
+排序前：{9,1,2,5,7,4,8,6,3,5}
+排序后：{1,2,3,4,5,5,6,7,8,9}
+
+**排序原理：**
+ 1.选定一个增长量h，按照增长量h作为数据分组的依据，对数据进行分组；
+ 2.对分好组的每一组数据完成插入排序；
+ 3.减小增长量，最小减为1，重复第二步操作。
+
+![1674202348863](image/data-structure-and-algorithm/1674202348863.png)
+
+增长量h的确定：增长量h的值每一固定的规则，我们这里采用以下规则：
+
+```java
+int h=1
+while(h<5){
+    h=2h+1；//3,7
+}
+//循环结束后我们就可以确定h的最大值；
+//h的减小规则为：
+    h=h/2
+```
+
+**希尔排序的API设计：**
+
+| 类名     | Shell                                                                                                                                                                                                                                          |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 构造方法 | Shell()：创建Shell对象                                                                                                                                                                                                                         |
+| 成员方法 | 1.public static void sort(Comparable[] a)：对数组内的元素进行排序<br />2.private static boolean greater(Comparable v,Comparable w):判断v是否大于w<br />3.private static void exch(Comparable[] a,int i,int j)：交换a数组中，索引i和索引j处的值 |
+
+**希尔排序的代码实现：**
+
+```java
+/**
+ * @Description TODO Shell
+ * @Author ZFiend
+ * @Create 2023.01.20 16:16
+ */
+public class Shell {
+    public static void sort(Comparable[] a) {
+        int n = a.length;
+        // 确定增长量 h 的最大值
+        int h = 1;
+        while (h < n / 2) {
+            h = h * 2 + 1;
+        }
+        // 当增长量 h 小于 1 时结束
+        while (h >= 1) {
+            // 找到待插入元素
+            for (int i = h; i < n; i++) {
+                // a[i]就是待插入元素
+                // 把把a[i]插入到a[i-h],a[i-2h],a[i-3h]...序列中
+                for (int j = i; j >= h; j -= h) {
+                    //a[j]就是待插入元素，依次和a[j-h],a[j-2h],a[j-3h]进行比较，如果a[j]小，那么交换位置，如果不小于，a[j]大，则插入完成。
+                    if (greater(a[j - h], a[j])) {
+                        exchange(a, j - h, j);
+                    } else {
+                        break;
+                    }
+                }
+            }
+            h /= 2;
+        }
+    }
+
+    /**
+     * @description: TODO [greater] 比较元素 v 是否大于 w 元素
+     * @author: ZFiend
+     * @date: 2023/1/19 22:31
+     * @param: v
+     * @param: w
+     * @return: boolean
+     */
+    private static boolean greater(Comparable v, Comparable w) {
+        return v.compareTo(w) > 0;
+    }
+
+    /**
+     * @description: TODO [exchange] 数组元素 i 和 j 交换位置
+     * @author: ZFiend
+     * @date: 2023/1/19 22:30
+     * @param: a
+     * @param: i
+     * @param: j
+     * @return: void
+     */
+    private static void exchange(Comparable[] a, int i, int j) {
+        Comparable t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
+}
+```
+
+---
+
+#### 归并排序 O(nlogn)
+
+归并排序是建立在归并操作上的一种有效的排序算法，该算法是采用分治法的一个非常典型的应用。将已有序的子序列合并，得到完全有序的序列；即先使每个子序列有序，再使子序列段间有序。若将两个有序表合并成一个有序表，称为二路归并。
+
+**需求：**
+
+排序前：{8,4,5,7,1,3,6,2}
+排序后：{1,2,3,4,5,6,7,8}
+
+**排序原理：**
+
+ 1.尽可能的一组数据拆分成两个元素相等的子组，并对每一个子组继续拆分，直到拆分后的每个子组的元素个数是1为止。
+ 2.将相邻的两个子组进行合并成一个有序的大组；
+ 3.不断的重复步骤2，直到最终只有一个组为止。
+
+![1674204880696](image/data-structure-and-algorithm/1674204880696.png)
+
+**归并排序API设计：**
+
+| 类名     | Merge                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 构造方法 | Merge()：创建 Merge 对象                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 成员方法 | 1.public static void sort(Comparable[] a)：对数组内的元素进行排序<br />2.private static void sort(Comparable[] a, int lo, int hi)：对数组a中从<br />索引lo到索引hi之间的元素进行排序<br />3.private static void merge(Comparable[] a, int lo, int mid, int hi):<br />从索引lo到所以mid为一个子组，从索引mid+1到索引hi为另一个子组，<br />把数组a中的这两个子组的数据合并成一个有序的大组（从索引lo到索引hi）<br />4.private static boolean less(Comparable v,Comparable w):判断v是否小于w<br />5.private static void exch(Comparable[] a,int i,int j)：交换a数组中，索引i和索引j处的值 |
+| 成员变量 | 1.private static Comparable[] assist：完成归并操作需要的辅助数组                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+
+**归并排序代码实现：**
+
+```java
+/**
+ * @Description TODO Merge
+ * @Author ZFiend
+ * @Create 2023.01.20 17:16
+ */
+public class Merge {
+    private static Comparable[] assist; // 归并所需要的辅助数组
+
+    /**
+     * @description: TODO [sort] 归并排序
+     * @author: ZFiend
+     * @date: 2023/1/20 17:29
+     * @param: a
+     * @return: void
+     */
+    public static void sort(Comparable[] a) {
+        assist = new Comparable[a.length];
+        int lo = 0;
+        int hi = a.length - 1;
+        sort(a, lo, hi);
+    }
+
+    /**
+     * @description: TODO [sort] 归并排序
+     * @author: ZFiend
+     * @date: 2023/1/20 17:43
+     * @param: a
+     * @param: lo
+     * @param: hi
+     * @return: void
+     */
+    private static void sort(Comparable[] a, int lo, int hi) {
+        if (hi <= lo) return;
+        int mid = lo + (hi - lo) / 2;
+        //对lo到mid之间的元素进行排序
+        sort(a, lo, mid);
+        //对mid+1到hi之间的元素进行排序
+        sort(a, mid + 1, hi);
+        //对lo到mid这组数据和mid到hi这组数据进行归并
+        merge(a, lo, mid, hi);
+    }
+
+    /**
+     * @description: TODO [merge] 从 lo 到 mid 为一组，从 mid+1 到 hi 为一组，对这两组数据进行归并
+     * @author: ZFiend
+     * @date: 2023/1/20 17:44
+     * @param: a
+     * @param: lo
+     * @param: mid
+     * @param: hi
+     * @return: void
+     */
+    private static void merge(Comparable[] a, int lo, int mid, int hi) {
+        //lo到mid这组数据和mid+1到hi这组数据归并到辅助数组assist对应的索引处
+        int i = lo, p1 = lo, p2 = mid + 1;
+        //比较左边小组和右边小组中的元素大小，哪个小，就把哪个数据填充到assist数组中
+        while (p1 <= mid && p2 <= hi) {
+            if (less(a[p1], a[p2])) {
+                assist[i++] = a[p1++];
+            } else {
+                assist[i++] = a[p2++];
+            }
+        }
+        //上面的循环结束后，如果退出循环的条件是p1<=mid，则证明左边小组中的数据已经归并完毕，如果退出循环的条件是p2<=hi,则证明右边小组的数据已经填充完毕；
+        //所以需要把未填充完毕的数据继续填充到assist中,//下面两个循环，只会执行其中的一个
+        while (p1 <= mid) {
+            assist[i++] = a[p1++];
+        }
+        while (p2 <= hi) {
+            assist[i++] = a[p2++];
+        }
+        //到现在为止，assist数组中，从lo到hi的元素是有序的，再把数据拷贝到a数组中对应的索引处
+        for (int index = lo; index <= hi; index++) {
+            a[index] = assist[index];
+        }
+    }
+
+    /**
+     * @description: TODO [less] 判断 v 元素是否小于 w 元素
+     * @author: ZFiend
+     * @date: 2023/1/20 19:37
+     * @param: v
+     * @param: w
+     * @return: boolean
+     */
+    private static boolean less(Comparable v, Comparable w) {
+        return v.compareTo(w) < 0;
+    }
+}
+```
+
+**归并排序时间复杂度分析：**
+
+归并排序是分治思想的最典型的例子，上面的算法中，对a[lo...hi]进行排序，先将它分为 a[lo...mid] 和 a[mid+1...hi] 两部分，分别通过递归调用将他们单独排序，最后将有序的子数组归并为最终的排序结果。该递归的出口在于如果一个数组不能再被分为两个子数组，那么就会执行merge进行归并，在归并的时候判断元素的大小进行排序。
+
+![1674215621005](image/data-structure-and-algorithm/1674215621005.png)
+
+用树状图来描述归并，如果一个数组有8个元素，那么它将每次除以2找最小的子数组，共拆log8次，值为3，所以树共有3层,那么自顶向下第k层有2^k个子数组，每个数组的长度为2^(3-k)，归并最多需要2^(3-k)次比较。因此每层的比较次数为 2^k * 2^(3-k)=2^3,那么3层总共为 3*2^3。*
+
+*假设元素的个数为n，那么使用归并排序拆分的次数为log2(n),所以共log2(n)层，那么使用log2(n)替换上面3*2^3中的3这个层数，最终得出的归并排序的时间复杂度为：log2(n)* 2^(log2(n))=log2(n)*n,根据大O推导法则，忽略底数，最终归并排序的时间复杂度为O(nlogn);
+
+**归并排序的缺点：**
+
+需要申请额外的数组空间，导致空间复杂度提升，是典型的以空间换时间的操作。
+
+---
+
+#### 快速排序 O(nlogn)
+
+快速排序是对冒泡排序的一种改进。它的基本思想是：通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据都比另外一部分的所有数据都要小，然后再按此方法对这两部分数据分别进行快速排序，整个排序过程可以递归进行，以此达到整个数据变成有序序列。
+
+**需求：**
+
+排序前:{6, 1, 2, 7, 9, 3, 4, 5, 8}
+排序后:{1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+**排序原理：**
+
+1.首先设定一个分界值，通过该分界值将数组分成左右两部分；
+
+2.将大于或等于分界值的数据放到到数组右边，小于分界值的数据放到数组的左边。此时左边部分中各元素都小于或等于分界值，而右边部分中各元素都大于或等于分界值；
+
+3.然后，左边和右边的数据可以独立排序。对于左侧的数组数据，又可以取一个分界值，将该部分数据分成左右两部分，同样在左边放置较小值，右边放置较大值。右侧的数组数据也可以做类似处理。
+
+4.重复上述过程，可以看出，这是一个递归定义。通过递归将左侧部分排好序后，再递归排好右侧部分的顺序。当左侧和右侧两个部分的数据排完序后，整个数组的排序也就完成了。
+
+![1674283886689](image/data-structure-and-algorithm/1674283886689.png)
+
+**快速排序API设计：**
+
+| 类名     | Quick                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 构造方法 | Quick()：创建Quick对象                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 成员方法 | 1.public static void sort(Comparable[] a)：对数组内的元素进行排序<br />2.private static void sort(Comparable[] a, int lo, int hi)：对数组a中从索引lo到索引hi之间的元素进行排序<br />3.public static int partition(Comparable[] a,int lo,int hi):对数组a中，从索引 lo到索引 hi之间的元素进行分组，并返回分组界限对应的索引<br />4.private static boolean less(Comparable v,Comparable w):判断v是否小于w<br />5.private static void exch(Comparable[] a,int i,int j)：交换a数组中，索引i和索引j处的值 |
+
+**切分原理：**
+把一个数组切分成两个子数组的基本思想：
+1.找一个基准值，用两个指针分别指向数组的头部和尾部；
+2.先从尾部向头部开始搜索一个比基准值小的元素，搜索到即停止，并记录指针的位置；
+3.再从头部向尾部开始搜索一个比基准值大的元素，搜索到即停止，并记录指针的位置；
+4.交换当前左边指针位置和右边指针位置的元素；
+5.重复2,3,4步骤，直到左边指针的值大于右边指针的值停止。
+
+**快速排序代码实现：**
+
+```java
+/**
+ * @Description TODO Quick
+ * @Author ZFiend
+ * @Create 2023.01.21 14:56
+ */
+public class Quick {
+    /**
+     * @description: TODO [sort] 快速排序
+     * @author: ZFiend
+     * @date: 2023/1/21 15:06
+     * @param: a
+     * @return: void
+     */
+    public static void sort(Comparable[] a) {
+        int lo = 0;
+        int hi = a.length - 1;
+        sort(a, lo, hi);
+    }
+
+    /**
+     * @description: TODO [sort] 快速排序递归部分
+     * @author: ZFiend
+     * @date: 2023/1/21 15:06
+     * @param: a
+     * @param: lo
+     * @param: hi
+     * @return: void
+     */
+    private static void sort(Comparable[] a, int lo, int hi) {
+        if (hi <= lo) return;
+        int partition = partition(a, lo, hi);
+        sort(a, lo, partition - 1);
+        sort(a, partition + 1, hi);
+    }
+
+    /**
+     * @description: TODO [partition] 将所有元素分为小于 key 和大于 key 的两部分并返回边界下标
+     * @author: ZFiend
+     * @date: 2023/1/21 15:05
+     * @param: a
+     * @param: lo
+     * @param: hi
+     * @return: int
+     */
+    private static int partition(Comparable[] a, int lo, int hi) {
+        Comparable key = a[lo];
+        int l = lo, r = hi + 1;
+        while (l < r) {
+            while (less(key, a[--r])) {
+                if (r == lo) break;
+            }
+            while (less(a[++l], key)) {
+                if (l == hi) break;
+            }
+            if (l < r) exchange(a, l, r);
+            else break;
+        }
+        exchange(a, lo, r);
+        return r;
+    }
+
+    /**
+     * @description: TODO [less] 判断 v 是否小于 w
+     * @author: ZFiend
+     * @date: 2023/1/21 15:04
+     * @param: v
+     * @param: w
+     * @return: boolean
+     */
+    private static boolean less(Comparable v, Comparable w) {
+        return v.compareTo(w) < 0;
+    }
+
+    /**
+     * @description: TODO [exchange] 交换 a[i] 和 a[j] 的值
+     * @author: ZFiend
+     * @date: 2023/1/21 15:04
+     * @param: a
+     * @param: i
+     * @param: j
+     * @return: void
+     */
+    private static void exchange(Comparable[] a, int i, int j) {
+        Comparable t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
+}
+```
+
+**归并排序和快速排序的区别：**
+
+快速排序是另外一种分治的排序算法，它将一个数组分成两个子数组，将两部分独立的排序。快速排序和归并排序是互补的：归并排序将数组分成两个子数组分别排序，并将有序的子数组归并从而将整个数组排序，而快速排序的方式则是当两个数组都有序时，整个数组自然就有序了。在归并排序中，一个数组被等分为两半，归并调用发生在处理整个数组之前，在快速排序中，切分数组的位置取决于数组的内容，递归调用发生在处理整个数组之后。
+
+---
+
+#### 排序的稳定性
+
+**稳定性的定义：**
+
+数组arr中有若干元素，其中A元素和B元素相等，并且A元素在B元素前面，如果使用某种排序算法排序后，能够保证A元素依然在B元素的前面，可以说这个该算法是稳定的。
+
+![1674285969962](image/data-structure-and-algorithm/1674285969962.png)
+
+**稳定性的意义：**
+
+如果一组数据只需要一次排序，则稳定性一般是没有意义的，如果一组数据需要多次排序，稳定性是有意义的。例如要排序的内容是一组商品对象，第一次排序按照价格由低到高排序，第二次排序按照销量由高到低排序，如果第二次排序使用稳定性算法，就可以使得相同销量的对象依旧保持着价格高低的顺序展现，只有销量不同的对象才需要重新排序。这样既可以保持第一次排序的原有意义，而且可以减少系统开销。
+
+第一次按照价格从低到高排序：
+
+| 商品名称   | 价格 | 销量 |
+| ---------- | ---- | ---- |
+| 三星Note9  | 3999 | 21   |
+| 华为mate30 | 4999 | 65   |
+| 华为p30    | 5999 | 65   |
+| Iphone 11  | 6999 | 32   |
+
+第二次按照销量进行从高到低排序：
+
+| 商品名称   | 价格 | 销量 |
+| ---------- | ---- | ---- |
+| 华为mate30 | 4999 | 65   |
+| 华为p30    | 5999 | 65   |
+| Iphone 11  | 6999 | 32   |
+| 三星Note9  | 3999 | 21   |
+
+**常见排序算法的稳定性：**
+
+冒泡排序：
+
+只有当arr[i]>arr[i+1]的时候，才会交换元素的位置，而相等的时候并不交换位置，所以冒泡排序是一种稳定排序算法。
+
+选择排序:
+
+选择排序是给每个位置选择当前元素最小的,例如有数据{5(1)，8 ，5(2)， 2， 9 },第一遍选择到的最小元素为2，所以5(1)会和2进行交换位置，此时5(1)到了5(2)后面，破坏了稳定性，所以选择排序是一种不稳定的排序算法。
+
+插入排序：
+
+比较是从有序序列的末尾开始，也就是想要插入的元素和已经有序的最大者开始比起，如果比它大则直接插入在其后面，否则一直往前找直到找到它该插入的位置。如果碰见一个和插入元素相等的，那么把要插入的元素放在相等元素的后面。所以，相等元素的前后顺序没有改变，从原无序序列出去的顺序就是排好序后的顺序，所以插入排序是稳定的。
+
+希尔排序：
+
+希尔排序是按照不同步长对元素进行插入排序 ,虽然一次插入排序是稳定的，不会改变相同元素的相对顺序，但在不同的插入排序过程中，相同的元素可能在各自的插入排序中移动，最后其稳定性就会被打乱，所以希尔排序是不稳定的。
+
+归并排序：
+
+归并排序在归并的过程中，只有arr[i]<arr[i+1]的时候才会交换位置，如果两个元素相等则不会交换位置，所以它并不会破坏稳定性，归并排序是稳定的。
+
+快速排序：
+
+快速排序需要一个基准值，在基准值的右侧找一个比基准值小的元素，在基准值的左侧找一个比基准值大的元素，然后交换这两个元素，此时会破坏稳定性，所以快速排序是一种不稳定的算法。
+
+---
+
+
+
+### 数学
+
+常用到的和数学有关的算法。
+
+#### 进制转换

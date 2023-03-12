@@ -11,8 +11,12 @@
             "id": "90122205b9a6867b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "刷题笔记/data-structure-and-algorithm.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "刷题笔记/data-structure-and-algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "刷题笔记/data-structure-and-algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "刷题笔记/data-structure-and-algorithm.md"
+              }
             }
           }
         ],
@@ -140,53 +148,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "90122205b9a6867b",
   "lastOpenFiles": [
-    "学习笔记/mysql/MySQL学习目录.md",
     "学习笔记/database/database.md",
-    "学习笔记/mysql",
-    "学习笔记/c++/学习笔记.md",
-    "学习笔记/database",
-    "学习笔记/c++/学习笔记2.md",
-    "学习笔记/computerNetwork/计算机网络学习目录.md",
-    "README.md",
-    "学习笔记/computerNetwork",
-    "学习笔记/freeMarker",
-    "学习笔记/thymeleaf",
-    "学习笔记/applicationFramework/frontEnd/formwork-frame/formwork-frame.md",
-    "学习笔记/angular",
-    "学习笔记/react",
-    "学习笔记/vue",
-    "学习笔记/applicationFramework/frontEnd/component-frame/component-frame.md",
-    "学习笔记/ajax",
-    "学习笔记/Query",
-    "学习笔记/applicationFramework/frontEnd/base/base.md",
-    "学习笔记/springboot2/RestTemplate.md",
-    "学习笔记/springboot2/目录.md",
-    "学习笔记/applicationFramework/backEnd/spring/springmvc/springmvc.md",
-    "学习笔记/springMVC/目录.md",
-    "学习笔记/applicationFramework/backEnd/spring/spring/spring.md",
-    "学习笔记/spring/目录.md",
-    "学习笔记/applicationFramework/backEnd/spring/spring.md",
-    "学习笔记/nginx/目录.md",
-    "学习笔记/applicationFramework/backEnd/serverSoftware/server-software.md",
-    "学习笔记/applicationFramework/backEnd/searchEngine/search-engine.md",
-    "学习笔记/dubbo/目录.md",
-    "学习笔记/netty/目录.md",
-    "学习笔记/messageQueue/目录.md",
-    "学习笔记/applicationFramework/backEnd/middleware/middleware.md",
-    "学习笔记/cache/目录.md",
-    "学习笔记/springSecurity/目录.md",
-    "学习笔记/microservice/microservice介绍.md",
-    "学习笔记/images/编程学习路线图.png",
-    "学习笔记/microservice/load-balance/image/microservice/v2-3661c2082103036ecb23a3f29be740be_b.gif",
-    "学习笔记/microservice/load-balance/image/microservice/1673944453709.png",
-    "学习笔记/microservice/load-balance/image/microservice/1673678255090.png",
-    "学习笔记/microservice/load-balance/image/microservice/1673678247081.png",
-    "学习笔记/microservice/load-balance/image/microservice/1673678190391.png",
-    "学习笔记/microservice/load-balance/image/microservice/1673678175176.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215816.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215810.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215755.png"
+    "刷题笔记/data-structure-and-algorithm.md",
+    "刷题笔记/leetcode/explanation/algorithm/search/image/offer04/1674469523658.png",
+    "刷题笔记/leetcode/explanation/algorithm/search/image/offer04",
+    "刷题笔记/leetcode/explanation/data-structure/string/offer58.md",
+    "刷题笔记/leetcode/explanation/data-structure/string/offer05.md",
+    "刷题笔记/leetcode/explanation/data-structure/stack/offer30.md",
+    "刷题笔记/leetcode/explanation/data-structure/stack/offer09.md",
+    "刷题笔记/leetcode/explanation/data-structure/queue/LeetCode-295.md",
+    "刷题笔记/leetcode/explanation/data-structure/linked-list/offer35.md",
+    "刷题笔记/leetcode/explanation/data-structure/linked-list/offer24.md",
+    "刷题笔记/leetcode/explanation/data-structure/linked-list/offer06.md",
+    "刷题笔记/leetcode/explanation/data-structure/hash-map/LeetCode-710.md",
+    "刷题笔记/leetcode/explanation/data-structure/hash-map/LeetCode-380.md",
+    "刷题笔记/leetcode/explanation/algorithm/search/offer53-2.md",
+    "刷题笔记/leetcode/explanation/algorithm/search/offer53-1.md",
+    "刷题笔记/leetcode/explanation/algorithm/search/offer50.md",
+    "刷题笔记/leetcode/explanation/algorithm/search/offer11.md",
+    "刷题笔记/leetcode/explanation/algorithm/search/offer03.md",
+    "刷题笔记/leetcode/explanation/algorithm/search/offer04.md",
+    "刷题笔记/leetcode/explanation/algorithm/search/image",
+    "刷题笔记/leetcode/explanation/algorithm/other/LRU.md",
+    "刷题笔记/leetcode/explanation/algorithm/other/LFU.md",
+    "刷题笔记/leetcode/explanation/algorithm/dynamic/offer63.md",
+    "刷题笔记/leetcode/explanation/algorithm/dynamic/offer48.md",
+    "刷题笔记/leetcode/explanation/algorithm/dynamic/offer47.md",
+    "刷题笔记/leetcode/explanation/algorithm/dynamic/offer46.md",
+    "刷题笔记/leetcode/explanation/algorithm/dynamic/offer42.md",
+    "刷题笔记/leetcode/explanation/algorithm/dynamic/offer10-2.md",
+    "刷题笔记/leetcode/explanation/data-structure/string",
+    "刷题笔记/leetcode/explanation/data-structure/stack",
+    "刷题笔记/leetcode/explanation/data-structure/queue",
+    "刷题笔记/leetcode/explanation/data-structure/linked-list",
+    "刷题笔记/leetcode/explanation/data-structure/hash-map",
+    "刷题笔记/leetcode/explanation/algorithm/search",
+    "刷题笔记/leetcode/explanation/algorithm/other",
+    "刷题笔记/leetcode/explanation/algorithm/dynamic",
+    "刷题笔记/image/data-structure-and-algorithm/1674285969962.png",
+    "刷题笔记/image/data-structure-and-algorithm/1674215621005.png",
+    "刷题笔记/image/data-structure-and-algorithm/1674283886689.png",
+    "刷题笔记/image/data-structure-and-algorithm/1674204880696.png",
+    "刷题笔记/image/data-structure-and-algorithm/1674202348863.png",
+    "刷题笔记/image/data-structure-and-algorithm/1674199865770.png",
+    "刷题笔记/image/data-structure-and-algorithm/1674139873704.png",
+    "刷题笔记/image/data-structure-and-algorithm/1674138179977.png",
+    "刷题笔记/image/data-structure-and-algorithm/1673843479341.png"
   ]
 }
