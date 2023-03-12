@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/applicationFramework/application-framework.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/applicationFramework/application-framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/applicationFramework/application-framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "学习笔记/applicationFramework/application-framework.md"
               }
             }
           }
@@ -148,53 +148,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "e6f2c5cfa48d7863",
   "lastOpenFiles": [
+    "back-end/spring/spring.md",
+    "back-end/spring",
+    "back-end",
+    "README.md",
+    "学习笔记/applicationFramework/backEnd/serverSoftware/server-software.md",
+    "学习笔记/applicationFramework/backEnd/serverSoftware",
+    "学习笔记/applicationFramework/backEnd/searchEngine/search-engine.md",
+    "学习笔记/applicationFramework/backEnd/searchEngine",
+    "学习笔记/applicationFramework/backEnd/interfaceManagement/interface-management.md",
+    "学习笔记/applicationFramework/backEnd/interfaceManagement",
+    "学习笔记/applicationFramework/backEnd/buildManagementTool/build-management-tool.md",
+    "学习笔记/applicationFramework/backEnd/buildManagementTool",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/v2-3661c2082103036ecb23a3f29be740be_b.gif",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/1673944453709.png",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/1673678255090.png",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/1673678247081.png",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/1673678190391.png",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/1673678175176.png",
+    "学习笔记/applicationFramework/backEnd/microservice/registry/eureka/eureka.md",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/ribbon/ribbon.md",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice",
+    "学习笔记/applicationFramework/backEnd/spring/springmvc/springmvc.md",
+    "学习笔记/applicationFramework/backEnd/spring/springcloudalibaba/springcloudalibaba.md",
+    "学习笔记/applicationFramework/backEnd/spring/springcloud/springcloud.md",
+    "学习笔记/applicationFramework/backEnd/spring/springboot2/springboot2.md",
+    "学习笔记/applicationFramework/backEnd/spring/spring/spring.md",
+    "学习笔记/applicationFramework/backEnd/microservice/registry/register.md",
+    "学习笔记/applicationFramework/backEnd/microservice/registry/eureka",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/load-balance.md",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/ribbon",
+    "学习笔记/applicationFramework/backEnd/microservice/load-balance/image",
+    "学习笔记/applicationFramework/backEnd/spring/spring.md",
+    "学习笔记/applicationFramework/backEnd/server-software/server-software.md",
+    "学习笔记/applicationFramework/backEnd/search-engine/search-engine.md",
+    "学习笔记/applicationFramework/backEnd/middleware/middleware.md",
+    "学习笔记/applicationFramework/backEnd/microservice/microservice.md",
+    "学习笔记/applicationFramework/backEnd/database/database.md",
+    "学习笔记/applicationFramework/backEnd/containerization/containerization.md",
+    "学习笔记/applicationFramework/backEnd/interface-management/interface-management.md",
+    "学习笔记/applicationFramework/backEnd/build-management-tool/build-management-tool.md",
     "学习笔记/applicationFramework/frontEnd/formwork-frame/formwork-frame.md",
     "学习笔记/applicationFramework/frontEnd/component-frame/component-frame.md",
-    "学习笔记/applicationFramework/frontEnd/base/base.md",
-    "学习笔记/applicationFramework/frontEnd/formwork-frame",
-    "学习笔记/applicationFramework/frontEnd/component-frame",
-    "学习笔记/applicationFramework/frontEnd/base",
-    "学习笔记/applicationFramework/frontEnd",
-    "学习笔记/linux",
-    "学习笔记/java",
-    "学习笔记/dataStructure",
-    "学习笔记/cSharp/学习笔记.md",
-    "学习笔记/cSharp",
     "学习笔记/compurterScience/images/Pasted image 20230311215816.png",
     "学习笔记/compurterScience/images/Pasted image 20230311215810.png",
     "学习笔记/compurterScience/images/Pasted image 20230311215755.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215752.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215736.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215745.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215729.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215722.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215719.png",
-    "学习笔记/compurterScience/images/Pasted image 20230311215710.png",
-    "学习笔记/compurterScience/images",
-    "学习笔记/compurterScience/9.高级CPU设计.md",
-    "学习笔记/compurterScience/8.指令和程序.md",
-    "学习笔记/compurterScience/6.寄存器和内存.md",
-    "学习笔记/compurterScience/7.中央处理器（CPU）.md",
-    "学习笔记/compurterScience/5.算数逻辑单元.md",
-    "学习笔记/compurterScience/4.二进制.md",
-    "学习笔记/compurterScience/2.电子计算机.md",
-    "学习笔记/compurterScience/3.布尔逻辑和逻辑门.md",
-    "学习笔记/compurterScience/14.数据结构.md",
-    "学习笔记/compurterScience/15.阿兰 · 图灵.md",
-    "学习笔记/compurterScience/13.算法入门.md",
-    "学习笔记/compurterScience/11.编程语言的发展史.md",
-    "学习笔记/compurterScience/12.编程基础 - 语句和函数.md",
-    "学习笔记/compurterScience/10.早期的编程方式.md",
-    "学习笔记/compurterScience/1.计算机早期历史.md",
-    "学习笔记/compurterScience",
-    "学习笔记/c++/学习笔记.md",
-    "学习笔记/applicationFramework/BackEnd/microservice/registry/eureka/eureka.md",
-    "学习笔记/applicationFramework/BackEnd/microservice/load-balance/ribbon/ribbon.md",
-    "学习笔记/applicationFramework/BackEnd/spring/springmvc/springmvc.md",
-    "学习笔记/applicationFramework/BackEnd/spring/springcloudalibaba/springcloudalibaba.md",
-    "学习笔记/applicationFramework/BackEnd/spring/springboot2/springboot2.md",
-    "学习笔记/applicationFramework/BackEnd/spring/springcloud/springcloud.md"
+    "学习笔记/compurterScience/images/Pasted image 20230311215752.png"
   ]
 }
