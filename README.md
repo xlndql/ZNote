@@ -23,6 +23,8 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 		- 后端
 			- Spring家族
 			- 构建管理工具
+				- Maven
+				- Gradle
 			- 接口管理
 			- 服务器软件
 			- 中间件
