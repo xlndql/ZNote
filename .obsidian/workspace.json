@@ -11,8 +11,12 @@
             "id": "0d9f597bf96ae4b4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/汇编语言/1.基础知识/整数的机器表示.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "学习笔记/汇编语言/1.基础知识/整数的机器表示.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "学习笔记/汇编语言/1.基础知识/整数的机器表示.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "学习笔记/汇编语言/1.基础知识/整数的机器表示.md"
+              }
             }
           }
         ],
@@ -139,13 +147,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "0d9f597bf96ae4b4",
   "lastOpenFiles": [
-    "学习笔记/汇编语言/未命名",
-    "学习笔记/汇编语言/汇编编程",
-    "学习笔记/汇编语言/c与汇编语言",
-    "学习笔记/汇编语言/X86体系结构初步",
-    "学习笔记/汇编语言/基础知识",
+    "学习笔记/汇编语言/1.基础知识/整数的机器表示.md",
+    "学习笔记/汇编语言/5.MIPS汇编",
+    "学习笔记/汇编语言/4.汇编编程",
+    "学习笔记/汇编语言/3.c与汇编语言",
+    "学习笔记/汇编语言/2.X86体系结构初步",
+    "学习笔记/汇编语言/1.基础知识",
     "学习笔记/汇编语言",
     "学习笔记/C++/学习笔记.md",
     "学习笔记/软件工程导论/复习提纲.md",
@@ -183,7 +192,6 @@
     "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
     "项目笔记/Redis/Linux安装部署Redis.md",
     "项目笔记/Redis/Redis的安装和配置说明.md",
-    "项目笔记/Redis/images",
     "项目笔记/Python/python使用Excel文件（增、删、改、查）.md",
     "项目笔记/Python/Excel/未命名.md",
     "项目笔记/Vue/vue创建项目.md"
