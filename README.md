@@ -46,8 +46,8 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				  * Sharding-Sphere
 			- 搜索引擎
 			- 分布式/微服务
-				- [Spring Cloud](../spring/springcloud/springcloud.md)
-				* [Spring Cloud Alibaba](../spring/springcloudalibaba/springcloudalibaba.md)
+				- Spring Cloud
+				* Spring Cloud Alibaba
 				* [服务发现/注册](./registry/register.md)
 				* 网关
 				  * Zuul
