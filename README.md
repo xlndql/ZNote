@@ -30,19 +30,8 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				* Postman 接口测试
 			- 服务器软件
 			- 中间件
-				-  缓存
+				- 缓存
 				* 消息队列
-				  * 概念
-				  * RabbitMQ
-				    * 生产消费模型
-				    * 交换机模型
-				    * 死信队列
-				    * 延迟队列
-				    * 消息持久化
-				    * Java 操作
-				    * 集群搭建
-				  * RocketMQ
-				  * Kafka
 				* RPC框架
 				  * Dubbo
 				    * 框架演进
