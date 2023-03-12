@@ -1,12 +1,3 @@
-# Spring Boot 2
-
-## 目录
-
-* 常用注解
-* 资源整合
-* 高级特性
-* 本地热部署
-* RestTemplate
 
 
 ## RestTemplate

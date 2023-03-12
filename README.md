@@ -24,7 +24,7 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 			- Spring家族
 				- Spring
 				* Spring MVC
-				* [Spring Boot 2](./springboot2/springboot2.md)
+				* Spring Boot 2
 				* [Spring Cloud](./springcloud/springcloud.md)
 				* [Spring Cloud Alibaba](./springcloudalibaba/springcloudalibaba.md)
 				* Spring Security
