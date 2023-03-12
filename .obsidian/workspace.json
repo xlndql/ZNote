@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/git/git学习笔记.md",
+                "file": "学习笔记/discreteMath/discrete-math.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/git/git学习笔记.md",
+                "file": "学习笔记/discreteMath/discrete-math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/git/git学习笔记.md",
+                "file": "学习笔记/discreteMath/discrete-math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/git/git学习笔记.md"
+                "file": "学习笔记/discreteMath/discrete-math.md"
               }
             }
           }
@@ -150,11 +150,19 @@
   },
   "active": "108a4fc518989e51",
   "lastOpenFiles": [
+    "学习笔记/git/git学习笔记.md",
+    "学习笔记/discreteMath/image/1675768395701.png",
+    "学习笔记/discreteMath/image/1675588723410.png",
+    "学习笔记/discreteMath/image/1675506058109.png",
+    "学习笔记/discreteMath/image/1675505745443.png",
+    "学习笔记/discreteMath/image/discrete-math",
+    "学习笔记/discreteMath/image",
+    "学习笔记/discreteMath/discrete-math.md",
+    "学习笔记/discreteMath",
     "README.md",
     "学习笔记/git/image/1673337703685.png",
     "学习笔记/git/image/git",
     "学习笔记/git/image",
-    "学习笔记/git/git学习笔记.md",
     "学习笔记/git",
     "学习笔记/开发规范/开发规范学习目录.md",
     "学习笔记/开发规范",
@@ -183,17 +191,9 @@
     "刷题笔记/leetcode/explanation/algorithm/search/offer04.md",
     "刷题笔记/leetcode/explanation/algorithm/search/image",
     "刷题笔记/leetcode/explanation/algorithm/other/LRU.md",
-    "刷题笔记/leetcode/explanation/algorithm/other/LFU.md",
-    "刷题笔记/leetcode/explanation/data-structure/string",
-    "刷题笔记/leetcode/explanation/data-structure/stack",
-    "刷题笔记/leetcode/explanation/data-structure/queue",
     "刷题笔记/image/1674285969962.png",
     "刷题笔记/image/1674215621005.png",
     "刷题笔记/image/1674283886689.png",
-    "刷题笔记/image/1674204880696.png",
-    "刷题笔记/image/1674202348863.png",
-    "刷题笔记/image/1674199865770.png",
-    "刷题笔记/image/1674139873704.png",
-    "刷题笔记/image/1674138179977.png"
+    "刷题笔记/image/1674204880696.png"
   ]
 }
