@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/linux/linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/linux/linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/linux/linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "学习笔记/linux/linux.md"
               }
             }
           }
@@ -148,11 +148,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c3f557baf38118fa",
+  "active": "108a4fc518989e51",
   "lastOpenFiles": [
-    "学习笔记/linux/image/linux/1673451947945.png",
-    "学习笔记/linux/image/linux/1673451882588.png",
-    "学习笔记/linux/image/linux/1673426786692.png",
+    "README.md",
+    "学习笔记/linux/image/1673451947945.png",
+    "学习笔记/linux/image/1673451882588.png",
+    "学习笔记/linux/image/1673426786692.png",
     "学习笔记/linux/image/linux",
     "学习笔记/linux/image",
     "学习笔记/linux/linux.md",
@@ -163,7 +164,6 @@
     "学习笔记/java-language/base/image/base/1674115296036.png",
     "学习笔记/java-language/base/image/base/1674111935295.png",
     "学习笔记/java-language/base/image/base/1674111821195.png",
-    "学习笔记/java-language/base/image/base/1674111708801.png",
     "学习笔记/java-language/base/image/base",
     "学习笔记/java-language/jvm/jvm.md",
     "学习笔记/java-language/javaweb/javaweb.md",
@@ -180,7 +180,6 @@
     "学习笔记/java-language",
     "学习笔记/git/git学习笔记.md",
     "学习笔记/discreteMath/离散数学学习笔记.md",
-    "README.md",
     "学习笔记/开发规范/开发规范学习目录.md",
     "学习笔记/designMode/设计模式学习目录.md",
     "刷题笔记/数据结构和算法学习笔记.md",
