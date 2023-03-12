@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,7 +147,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6f2c5cfa48d7863",
+  "active": "0cac7e4198934f70",
   "lastOpenFiles": [
     "学习笔记/编程学习路线汇总.md",
     "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
