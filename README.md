@@ -26,6 +26,8 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				- Maven
 				- Gradle
 			- 接口管理
+				- Swagger 接口文档
+				* Postman 接口测试
 			- 服务器软件
 			- 中间件
 			- 数据库
