@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/microservice/microservice介绍.md",
+                "file": "学习笔记/applicationFramework/backEnd/middleware/middleware.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,8 +166,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "108a4fc518989e51",
+  "active": "90122205b9a6867b",
   "lastOpenFiles": [
+    "学习笔记/applicationFramework/backEnd/middleware/middleware.md",
+    "README.md",
+    "学习笔记/microservice/ELK",
     "学习笔记/microservice/Skywalking",
     "学习笔记/microservice/Sleuth",
     "学习笔记/microservice/Zipkin",
@@ -177,10 +180,7 @@
     "学习笔记/microservice/SAGA模式",
     "学习笔记/microservice/TCC模式",
     "学习笔记/microservice/XA模式",
-    "学习笔记/microservice/3PC",
-    "学习笔记/microservice/2PC",
     "学习笔记/microservice/springSecurity/目录.md",
-    "README.md",
     "学习笔记/microservice/microservice介绍.md",
     "学习笔记/microservice/load-balance/ribbon/ribbon.md",
     "学习笔记/microservice/load-balance/load-balance.md",
