@@ -8,15 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e9bd45c2ddddd2b",
+            "id": "4d7b2b8a62a67c76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/applicationFramework/backEnd/searchEngine/search-engine.md",
+                "file": "学习笔记/applicationFramework/backEnd/serverSoftware/server-software.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "6e9bd45c2ddddd2b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -168,8 +176,11 @@
   },
   "active": "90122205b9a6867b",
   "lastOpenFiles": [
-    "学习笔记/applicationFramework/backEnd/searchEngine/search-engine.md",
+    "学习笔记/applicationFramework/backEnd/serverSoftware/server-software.md",
     "README.md",
+    "学习笔记/solr",
+    "学习笔记/elasticSearch",
+    "学习笔记/applicationFramework/backEnd/searchEngine/search-engine.md",
     "学习笔记/dubbo/目录.md",
     "学习笔记/dubbo",
     "学习笔记/gRPC",
@@ -183,8 +194,6 @@
     "学习笔记/messageQueue/rocketMQ",
     "学习笔记/messageQueue",
     "学习笔记/cache/目录.md",
-    "学习笔记/cache/memcache",
-    "学习笔记/cache/redis",
     "学习笔记/microservice/springSecurity/目录.md",
     "学习笔记/microservice/microservice介绍.md",
     "学习笔记/microservice/load-balance/ribbon/ribbon.md",
@@ -203,7 +212,6 @@
     "学习笔记/applicationFramework/backEnd/containerization/containerization.md",
     "学习笔记/docker/目录.md",
     "学习笔记/maven/目录.md",
-    "学习笔记/applicationFramework/applicationFramework.md",
     "学习笔记/images/编程学习路线图.png",
     "学习笔记/microservice/load-balance/image/microservice/v2-3661c2082103036ecb23a3f29be740be_b.gif",
     "学习笔记/microservice/load-balance/image/microservice/1673944453709.png",
