@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e6f2c5cfa48d7863",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/applicationFramework/backEnd/microservice/目录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29f444a597991dd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/applicationFramework/backEnd/microservice/目录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4706632e4f370683",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "学习笔记/applicationFramework/backEnd/microservice/registry/eureka/eureka.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -173,10 +144,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4706632e4f370683",
+  "active": "108a4fc518989e51",
   "lastOpenFiles": [
-    "学习笔记/applicationFramework/backEnd/microservice/目录.md",
+    "学习笔记/未命名",
+    "学习笔记/applicationFramework/backEnd/microservice/registry/eureka/eureka.md",
     "README.md",
+    "学习笔记/applicationFramework/backEnd/microservice/registry/register.md",
+    "学习笔记/applicationFramework/backEnd/microservice/目录.md",
     "学习笔记/applicationFramework/backEnd/microservice/microservice.md",
     "学习笔记/applicationFramework/backEnd/spring/springcloudalibaba/springcloudalibaba.md",
     "学习笔记/springCloudAlibaba",
@@ -212,12 +186,9 @@
     "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/1673678247081.png",
     "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/1673678190391.png",
     "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/1673678175176.png",
-    "学习笔记/applicationFramework/backEnd/microservice/registry/eureka/eureka.md",
     "学习笔记/applicationFramework/backEnd/microservice/load-balance/ribbon/ribbon.md",
     "学习笔记/applicationFramework/backEnd/spring/springmvc/springmvc.md",
     "学习笔记/applicationFramework/backEnd/spring/springcloud/springcloud.md",
-    "学习笔记/applicationFramework/backEnd/spring/springboot2/springboot2.md",
-    "学习笔记/applicationFramework/backEnd/spring/spring/spring.md",
     "学习笔记/compurterScience/images/Pasted image 20230311215816.png",
     "学习笔记/compurterScience/images/Pasted image 20230311215810.png",
     "学习笔记/compurterScience/images/Pasted image 20230311215755.png"

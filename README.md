@@ -48,7 +48,11 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 			- 分布式/微服务
 				- Spring Cloud
 				* Spring Cloud Alibaba
-				* [服务发现/注册](./registry/register.md)
+				* 服务发现/注册
+					* [Eureka](./eureka/eureka.md)
+					* Consul
+					* Zookeeper
+					* Nacos
 				* 网关
 				  * Zuul
 				  * Gateway
