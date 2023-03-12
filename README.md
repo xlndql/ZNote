@@ -127,7 +127,12 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 			- 组件化框架
 				* Thymeleaf
 				* FreeMarker
+			* 
 - 刷题笔记
+	- LeetCode
+	- BlueBridge
+	- NowCow
+	- ACWing
 - 项目笔记
 - 日常笔记
 - 其它笔记
