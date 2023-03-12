@@ -139,6 +139,7 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 	* linux
 	* 软件工程导论
 	* 汇编语言
+	* 开发规范
 - 刷题笔记
 	- LeetCode
 	- BlueBridge
