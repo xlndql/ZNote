@@ -3,5 +3,4 @@
 
 ## 目录
 
-* ElasticSearch
-* Solr
+

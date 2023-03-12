@@ -34,13 +34,6 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				* 消息队列
 				* RPC框架
 				  * Dubbo
-				    * 框架演进
-				    * RPC
-				    * Zookeeper
-				    * 服务提供者
-				    * 服务消费者
-				    * 项目搭建
-				    * DubboX
 				  * gRPC
 				  * Thrift
 				  * Netty
