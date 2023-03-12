@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/汇编语言/1.基础知识/无符号整数与带符号整数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc5c01b68561363b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "学习笔记/编程学习路线汇总.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,11 +148,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc5c01b68561363b",
+  "active": "e6f2c5cfa48d7863",
   "lastOpenFiles": [
-    "日常笔记/学习计划/2023年学习计划.md",
-    "学习笔记/编程学习路线汇总.md",
     "学习笔记/汇编语言/1.基础知识/无符号整数与带符号整数.md",
+    "学习笔记/images/编程学习路线图.png",
+    "学习笔记/编程学习路线汇总.md",
+    "学习笔记/images",
+    "日常笔记/学习计划/2023年学习计划.md",
     "日常笔记/学习计划",
     "学习笔记/汇编语言/1.基础知识/整数的机器表示.md",
     "学习笔记/汇编语言/5.MIPS汇编",
@@ -197,17 +186,14 @@
     "学习笔记/CompurterScience/images/Pasted image 20230311215729.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215722.png",
     "学习笔记/CompurterScience/images/Pasted image 20230311215719.png",
-    "学习笔记/CompurterScience/images/Pasted image 20230311215710.png",
     "学习笔记/CompurterScience/6.寄存器和内存.md",
     "学习笔记/CompurterScience/5.算数逻辑单元.md",
     "学习笔记/CompurterScience/4.二进制.md",
     "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
-    "学习笔记/CompurterScience/images",
     "学习笔记/CompurterScience/2.电子计算机.md",
     "学习笔记/CompurterScience/1.计算机早期历史.md",
     "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
     "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
-    "项目笔记/Redis/Linux安装部署Redis.md",
-    "项目笔记/Redis/Redis的安装和配置说明.md"
+    "项目笔记/Redis/Linux安装部署Redis.md"
   ]
 }
