@@ -46,6 +46,42 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				  * Sharding-Sphere
 			- 搜索引擎
 			- 分布式/微服务
+				- [Spring Cloud](../spring/springcloud/springcloud.md)
+				* [Spring Cloud Alibaba](../spring/springcloudalibaba/springcloudalibaba.md)
+				* [服务发现/注册](./registry/register.md)
+				* 网关
+				  * Zuul
+				  * Gateway
+				* [服务调用（负载均衡）](./load-balance/load-balance.md)
+				* 熔断/降级
+				  * Hystrix
+				* 配置中心
+				  * Config
+				  * Apollo
+				  * Nacos
+				* 认证和鉴权
+				  * Shiro
+				  * Spring Security
+				    * 用户认证
+				    * 权限管理
+				  * OAuth2
+				  * SSO
+				* 分布式事务
+				  * JTA接口
+				  * 2pC、3PC
+				  * XA模式
+				  * TCC模式
+				  * SAGA模式
+				  * LCN模式
+				* 任务调度
+				  * Quartz
+				  * Elastic-Job
+				* 链路追踪与监控
+				  * Zipkin
+				  * Sleuth
+				  * Skywalking
+				* 日志分析与监控
+				  * ELK
 			- 虚拟化/容器化
 				- 容器技术
 					- docker

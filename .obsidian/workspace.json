@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "4e8bbb69e5ed48ef",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7cce43f85c559c2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/applicationFramework/backEnd/microservice/microservice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -166,8 +148,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6f2c5cfa48d7863",
+  "active": "108a4fc518989e51",
   "lastOpenFiles": [
+    "学习笔记/未命名",
+    "学习笔记/springCloud",
     "学习笔记/applicationFramework/backEnd/microservice/microservice.md",
     "学习笔记/applicationFramework/backEnd/microservice/load-balance/load-balance.md",
     "README.md",
@@ -194,7 +178,6 @@
     "学习笔记/images/编程学习路线图.png",
     "学习笔记/applicationFramework/backEnd/spring/spring.md",
     "back-end/spring/spring.md",
-    "back-end/spring",
     "学习笔记/applicationFramework/backEnd/serverSoftware/server-software.md",
     "学习笔记/applicationFramework/backEnd/searchEngine/search-engine.md",
     "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/v2-3661c2082103036ecb23a3f29be740be_b.gif",
@@ -210,7 +193,6 @@
     "学习笔记/applicationFramework/backEnd/spring/springcloud/springcloud.md",
     "学习笔记/applicationFramework/backEnd/spring/springboot2/springboot2.md",
     "学习笔记/applicationFramework/backEnd/spring/spring/spring.md",
-    "学习笔记/applicationFramework/backEnd/microservice/registry/register.md",
     "学习笔记/compurterScience/images/Pasted image 20230311215816.png",
     "学习笔记/compurterScience/images/Pasted image 20230311215810.png",
     "学习笔记/compurterScience/images/Pasted image 20230311215755.png"
