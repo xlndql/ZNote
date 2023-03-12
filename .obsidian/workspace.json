@@ -11,8 +11,12 @@
             "id": "fb1c2bbf7d40379a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/汇编语言/1.基础知识/整数的机器表示.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "学习笔记/汇编语言/1.基础知识/整数的机器表示.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "学习笔记/汇编语言/1.基础知识/整数的机器表示.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "学习笔记/汇编语言/1.基础知识/整数的机器表示.md"
+              }
             }
           }
         ],
