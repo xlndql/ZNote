@@ -138,6 +138,7 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 	* git
 	* linux
 	* 软件工程导论
+	* 汇编语言
 - 刷题笔记
 	- LeetCode
 	- BlueBridge
@@ -145,4 +146,5 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 	- ACWing
 - 项目笔记
 - 日常笔记
+	- 学习计划
 - 其它笔记
