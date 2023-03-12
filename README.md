@@ -25,8 +25,8 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				- Spring
 				* Spring MVC
 				* Spring Boot 2
-				* [Spring Cloud](./springcloud/springcloud.md)
-				* [Spring Cloud Alibaba](./springcloudalibaba/springcloudalibaba.md)
+				* Spring Cloud
+				* Spring Cloud Alibaba
 				* Spring Security
 			- 构建管理工具
 				- Maven

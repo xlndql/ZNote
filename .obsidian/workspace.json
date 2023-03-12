@@ -4,37 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "0e7c38fe4d1e03b8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dfcc8ff91e3301c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/springboot2/springboot2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df0a2fc79f4e48d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习笔记/springboot2/目录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "3d2e0888ad6ae16c",
         "type": "tabs",
         "children": [
@@ -116,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/springboot2/目录.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/springboot2/目录.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/springboot2/目录.md"
+                "file": "README.md"
               }
             }
           }
@@ -179,9 +148,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "df0a2fc79f4e48d1",
+  "active": "108a4fc518989e51",
   "lastOpenFiles": [
-    "学习笔记/springboot2/springboot2.md",
+    "学习笔记/springboot2/RestTemplate.md",
     "学习笔记/springboot2/目录.md",
     "学习笔记/applicationFramework/backEnd/spring/springmvc/springmvc.md",
     "README.md",
