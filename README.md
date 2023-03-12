@@ -49,7 +49,7 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				- Spring Cloud
 				* Spring Cloud Alibaba
 				* 服务发现/注册
-					* [Eureka](./eureka/eureka.md)
+					* Eureka
 					* Consul
 					* Zookeeper
 					* Nacos

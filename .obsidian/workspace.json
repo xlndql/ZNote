@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4706632e4f370683",
+            "id": "521923ce1644c9f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/applicationFramework/backEnd/microservice/registry/eureka/eureka.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ],
@@ -147,10 +151,13 @@
   "active": "108a4fc518989e51",
   "lastOpenFiles": [
     "学习笔记/未命名",
+    "学习笔记/consul",
+    "学习笔记/eureka/eureka学习.md",
     "学习笔记/applicationFramework/backEnd/microservice/registry/eureka/eureka.md",
+    "学习笔记/applicationFramework/backEnd/microservice/目录.md",
+    "学习笔记/eureka",
     "README.md",
     "学习笔记/applicationFramework/backEnd/microservice/registry/register.md",
-    "学习笔记/applicationFramework/backEnd/microservice/目录.md",
     "学习笔记/applicationFramework/backEnd/microservice/microservice.md",
     "学习笔记/applicationFramework/backEnd/spring/springcloudalibaba/springcloudalibaba.md",
     "学习笔记/springCloudAlibaba",
@@ -170,11 +177,9 @@
     "学习笔记/applicationFramework/backEnd/containerization/containerization.md",
     "学习笔记/docker/目录.md",
     "学习笔记/kubernetes",
-    "学习笔记/docker",
     "学习笔记/maven/目录.md",
     "学习笔记/applicationFramework/applicationFramework.md",
     "学习笔记/applicationFramework/backEnd/buildManagementTool/build-management-tool.md",
-    "学习笔记/gradle",
     "学习笔记/images/编程学习路线图.png",
     "学习笔记/applicationFramework/backEnd/spring/spring.md",
     "back-end/spring/spring.md",
@@ -188,7 +193,6 @@
     "学习笔记/applicationFramework/backEnd/microservice/load-balance/image/microservice/1673678175176.png",
     "学习笔记/applicationFramework/backEnd/microservice/load-balance/ribbon/ribbon.md",
     "学习笔记/applicationFramework/backEnd/spring/springmvc/springmvc.md",
-    "学习笔记/applicationFramework/backEnd/spring/springcloud/springcloud.md",
     "学习笔记/compurterScience/images/Pasted image 20230311215816.png",
     "学习笔记/compurterScience/images/Pasted image 20230311215810.png",
     "学习笔记/compurterScience/images/Pasted image 20230311215755.png"
