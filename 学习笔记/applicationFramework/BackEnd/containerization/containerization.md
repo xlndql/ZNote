@@ -4,15 +4,7 @@
 ## 目录
 
 * 容器技术
-  * Docker
-    * 概念
-    * 镜像
-    * 部署服务
-    * Dockerfile
-    * Docker Compose
-    * Docker Machine
-    * Docker Swarm
-    * 多阶段构建
+
 * 容器编排技术
   * Kubernetes
     * K8S 架构

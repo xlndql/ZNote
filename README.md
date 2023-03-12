@@ -34,6 +34,9 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 			- 虚拟化/容器化
 				- 容器技术
 					- docker
+				- 容器编排技术
+					- Kubernetes
+					- Swarm
 		- 前端
 			- 基础套件
 			- 模板框架
