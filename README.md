@@ -127,7 +127,17 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 			- 组件化框架
 				* Thymeleaf
 				* FreeMarker
-			* 
+	* C++
+	* Java
+	* 数据结构和算法
+	* 计算机导论
+	* 计算机网络
+	* 数据库/SQL
+	* 操作系统
+	* 设计模式
+	* git
+	* linux
+	* 软件工程导论
 - 刷题笔记
 	- LeetCode
 	- BlueBridge
