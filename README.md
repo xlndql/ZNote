@@ -66,7 +66,6 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				* 认证和鉴权
 				  * Shiro
 				  * Spring Security
-				    
 				  * OAuth2
 				  * SSO
 				* 分布式事务
