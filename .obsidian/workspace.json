@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习笔记/applicationFramework/application-framework.md",
+                "file": "学习笔记/applicationFramework/applicationFramework.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习笔记/applicationFramework/application-framework.md",
+                "file": "学习笔记/applicationFramework/applicationFramework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习笔记/applicationFramework/application-framework.md",
+                "file": "学习笔记/applicationFramework/applicationFramework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习笔记/applicationFramework/application-framework.md"
+                "file": "学习笔记/applicationFramework/applicationFramework.md"
               }
             }
           }
