@@ -11,3 +11,8 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 
 我的学习清单大部分参照了 [Road 2 Coding](https://www.r2coding.com/#/README) 和 [鱼皮-编程学习路线](https://luxian.yupi.icu/#/roadmap/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF) 。
 
+## 路线汇总
+
+### 思维导图
+
+![[编程学习路线图.png]]

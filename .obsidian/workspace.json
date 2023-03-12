@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,9 +148,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0cac7e4198934f70",
+  "active": "e6f2c5cfa48d7863",
   "lastOpenFiles": [
+    "obsidian配置过程记录.md",
     "学习笔记/编程学习路线汇总.md",
+    "README.md",
     "学习笔记/CompurterScience/3.布尔逻辑和逻辑门.md",
     "学习笔记/汇编语言/1.基础知识/无符号整数与带符号整数.md",
     "学习笔记/images/编程学习路线图.png",
@@ -192,7 +195,6 @@
     "学习笔记/CompurterScience/2.电子计算机.md",
     "学习笔记/CompurterScience/1.计算机早期历史.md",
     "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
-    "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
-    "项目笔记/Redis/Linux安装部署Redis.md"
+    "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md"
   ]
 }
