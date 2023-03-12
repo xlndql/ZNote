@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "b59b3c8ea3cbaa82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d68144081b08933",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习笔记/applicationFramework/frontEnd/base/base.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,10 +168,12 @@
   },
   "active": "108a4fc518989e51",
   "lastOpenFiles": [
+    "学习笔记/html",
+    "学习笔记/applicationFramework/frontEnd/base/base.md",
+    "README.md",
     "学习笔记/springboot2/RestTemplate.md",
     "学习笔记/springboot2/目录.md",
     "学习笔记/applicationFramework/backEnd/spring/springmvc/springmvc.md",
-    "README.md",
     "学习笔记/springMVC/目录.md",
     "学习笔记/applicationFramework/backEnd/spring/spring/spring.md",
     "学习笔记/springMVC",
@@ -176,7 +196,7 @@
     "学习笔记/messageQueue/目录.md",
     "学习笔记/applicationFramework/backEnd/middleware/middleware.md",
     "学习笔记/cache/目录.md",
-    "学习笔记/microservice/springSecurity/目录.md",
+    "学习笔记/springSecurity/目录.md",
     "学习笔记/microservice/microservice介绍.md",
     "学习笔记/microservice/load-balance/ribbon/ribbon.md",
     "学习笔记/microservice/load-balance/load-balance.md",
@@ -184,8 +204,6 @@
     "学习笔记/applicationFramework/backEnd/microservice/registry/eureka/eureka.md",
     "学习笔记/applicationFramework/backEnd/microservice/目录.md",
     "学习笔记/applicationFramework/backEnd/microservice/registry/register.md",
-    "学习笔记/applicationFramework/backEnd/spring/springcloudalibaba/springcloudalibaba.md",
-    "学习笔记/未命名.md",
     "学习笔记/images/编程学习路线图.png",
     "学习笔记/microservice/load-balance/image/microservice/v2-3661c2082103036ecb23a3f29be740be_b.gif",
     "学习笔记/microservice/load-balance/image/microservice/1673944453709.png",

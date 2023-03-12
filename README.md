@@ -113,6 +113,13 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 					- Swarm
 		- 前端
 			- 基础套件
+				* 三大件
+				  * HTML
+				  * CSS
+				  * JavaScript
+				* 基础库
+				  * JQuery
+				  * Ajax
 			- 模板框架
 			- 组件化框架
 - 刷题笔记
