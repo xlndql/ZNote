@@ -59,7 +59,7 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
 
 ## 工作区
 
-![1673337703685](1673337703685.png)
+![[1673337703685.png]]
 
 ### 工作区
 
@@ -89,15 +89,15 @@ git工作区中文件存在两种状态：
 
 * 设置用户信息
 
-  ```powershell
+```powershell
   git config --global user.name "ZFined"
   git config --global user.email "1749895520@qq.com"
-  ```
+```
 * 查看配置信息
 
-  ```powershell
+```powershell
   git config --list
-  ```
+```
 
 ### 获取git仓库
 
@@ -105,85 +105,85 @@ git工作区中文件存在两种状态：
 
 * 执行命令
 
-  ```powershell
+```powershell
   git init
-  ```
+```
 
 #### 从远程仓库克隆
 
 * 执行命令
 
-  ```powershell
+```powershell
   git clone [远程git仓库地址]
-  ```
+```
 
 ### 查看文件状态
 
 * 执行命令
 
-  ```powershell
+```powershell
   git status
-  ```
+```
 
 ### 将文件的修改加入暂存区
 
 * 执行命令
-  ```powershell
+```powershell
   git add ./
-  ```
+```
 
 ### 将暂存区的文件取消暂存或者是切换到指定版本
 
 * 执行命令
 
-  ```powershell
+```powershell
   git reset [文件名] # 将文件取消暂存
   git reset --hard [提交记录的编号] # 切换到指定版本
-  ```
+```
 
 ### 将暂存区的文件修改提交到版本库
 
 * 执行命令
-  ```powershell
+```powershell
   git commit
-  ```
+```
 
 ### 查看日志
 
 * 执行命名
-  ```powershell
+```powershell
   git log
-  ```
+```
 
 ### 查看远程仓库
 
 * 执行命令
-  ```powershell
+```powershell
   git remote
   git remote -v # 查看远程仓库详细地址
-  ```
+```
 
 ### 添加远程仓库
 
 * 执行命令
-  ```powershell
+```powershell
   git remote add [自定义远程仓库名称（建议使用origin）] [远程仓库地址]
-  ```
+```
 
 ### 从远程仓库克隆
 
 * 执行命令
-  ```powershell
+```powershell
   git clone [远程仓库地址]
-  ```
+```
 
 ### 从远程仓库拉取
 
 * 执行命令
 
-  ```powershell
+```powershell
   git pull [远程仓库名称（默认是origin）] [分支名称（主分支默认为master）]
-  ```
+```
 
   如果当前本地仓库不是从远程仓库克隆的，而是本地创建的仓库，并且仓库中存在文件，此时从远程仓库拉取文件的时候会报错。
 * 解决此问题可以通过在 git pull 命令后加入参数 --allow-unrelated-histories
@@ -191,9 +191,9 @@ git工作区中文件存在两种状态：
 ### 推送到远程仓库
 
 * 执行命令
-  ```powershell
+```powershell
   git push [远程仓库名称（默认是origin）] [分支名称（主分支默认为master）]
-  ```
+```
 
 ## 分支操作
 
@@ -206,40 +206,40 @@ git工作区中文件存在两种状态：
 ### 查看分支
 
 * 执行命令
-  ```powershell
+```powershell
   git branch	# 列出所有本地分支
   git branch -r	# 列出所有远程分支
   git branch -a	# 列出所有本地分支和远程分支
-  ```
+```
 
 ### 创建分支
 
 * 执行命令
-  ```powershell
+```powershell
   git branch [分支名称]
-  ```
+```
 
 ### 切换分支
 
 * 执行命令
-  ```powershell
+```powershell
   git checkout [分支名称]
-  ```
+```
 
 ### 推送至远程仓库分支
 
 * 执行命令
-  ```powershell
+```powershell
   git push [远程仓库名称] [分支名称]
-  ```
+```
 
 ### 合并分支
 
 * 执行命令
 
-  ```powershell
+```powershell
   git merge [分支名称]
-  ```
+```
 * 如果存在分支，会在文件中显示冲突的内容，需要自行修改后再提交（push）一次才能解决冲突
 
 ## 标签操作
@@ -249,31 +249,31 @@ git 中的标签，指的是某个分支某个特定时间点的状态。通过�
 ### 列出已有的标签
 
 * 执行命令
-  ```powershell
+```powershell
   git tag
-  ```
+```
 
 ### 创建标签
 
 * 执行命令
-  ```powershell
+```powershell
   git tag [标签名称]
-  ```
+```
 
 ### 将标签推送至远程仓库
 
 * 执行命令
-  ```powershell
+```powershell
   git push [远程仓库名称] [标签名称]
-  ```
+```
 
 ### 检出标签
 
 * 执行命令
 
-  ```powershell
+```powershell
   git checkout -b [分支名称] [标签名称]
-  ```
+```
 
 ## cherry-pick
 
