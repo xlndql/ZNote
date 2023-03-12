@@ -3,6 +3,4 @@
 
 ## 目录
 
-* Vue
-* React
-* Angular
+

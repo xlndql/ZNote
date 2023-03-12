@@ -121,6 +121,9 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				  * JQuery
 				  * Ajax
 			- 模板框架
+				* Vue
+				* React
+				* Angular
 			- 组件化框架
 - 刷题笔记
 - 项目笔记
