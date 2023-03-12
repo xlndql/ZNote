@@ -125,6 +125,8 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				* React
 				* Angular
 			- 组件化框架
+				* Thymeleaf
+				* FreeMarker
 - 刷题笔记
 - 项目笔记
 - 日常笔记
