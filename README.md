@@ -56,7 +56,7 @@ obsidian的具体搭建过程前往[[obsidian配置过程记录]]
 				* 网关
 				  * Zuul
 				  * Gateway
-				* [服务调用（负载均衡）](./load-balance/load-balance.md)
+				* 服务调用（负载均衡）
 				* 熔断/降级
 				  * Hystrix
 				* 配置中心
