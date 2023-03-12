@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "e80c5abfd4b819eb",
+            "id": "fc5c01b68561363b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日常笔记/学习计划/2023年学习计划.md",
+                "file": "学习笔记/编程学习路线汇总.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日常笔记/学习计划/2023年学习计划.md",
+                "file": "学习笔记/编程学习路线汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日常笔记/学习计划/2023年学习计划.md",
+                "file": "学习笔记/编程学习路线汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日常笔记/学习计划/2023年学习计划.md"
+                "file": "学习笔记/编程学习路线汇总.md"
               }
             }
           }
@@ -161,10 +161,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0cac7e4198934f70",
+  "active": "fc5c01b68561363b",
   "lastOpenFiles": [
-    "学习笔记/汇编语言/1.基础知识/无符号整数与带符号整数.md",
     "日常笔记/学习计划/2023年学习计划.md",
+    "学习笔记/编程学习路线汇总.md",
+    "学习笔记/汇编语言/1.基础知识/无符号整数与带符号整数.md",
     "日常笔记/学习计划",
     "学习笔记/汇编语言/1.基础知识/整数的机器表示.md",
     "学习笔记/汇编语言/5.MIPS汇编",
@@ -207,7 +208,6 @@
     "项目笔记/Redis/Redis为什么这么快&如何让Redis更快.md",
     "项目笔记/Redis/解决Redis错误MISCONF Redis is configured to save RDB snapshots.md",
     "项目笔记/Redis/Linux安装部署Redis.md",
-    "项目笔记/Redis/Redis的安装和配置说明.md",
-    "项目笔记/Python/python使用Excel文件（增、删、改、查）.md"
+    "项目笔记/Redis/Redis的安装和配置说明.md"
   ]
 }
